@@ -1,7 +1,8 @@
-package com.Phase4.pathways
+package com.Phase4.pathways.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.Phase4.pathways.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -10,4 +11,3 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-// login branch commit and merg

@@ -6,6 +6,6 @@
 
     <fragment
         android:id="@+id/loginRegisterFragment"
-        android:name="com.Phase4.pathways.LoginRegisterFragment"
+        android:name="com.Phase4.pathways.views.LoginRegisterFragment"
         android:label="LoginRegisterFragment" />
 </navigation>
