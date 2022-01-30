@@ -14,35 +14,61 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class AppRepository {
     private Application application;
-    private FirebaseAuth firebaseAuth;
-    private MutableLiveData<FirebaseUser> userMutableLiveData;
 
+    private FirebaseAuth firebaseAuth;
+    private MutableLiveData<FirebaseUser> userLiveData;
+    private MutableLiveData<Boolean> loggedOutLiveData;
 
     public AppRepository(Application application) {
         this.application = application;
+        this.firebaseAuth = FirebaseAuth.getInstance();
+        this.userLiveData = new MutableLiveData<>();
+        this.loggedOutLiveData = new MutableLiveData<>();
 
-        // registering user auth
-        firebaseAuth = FirebaseAuth.getInstance();
-        userMutableLiveData = new MutableLiveData<>();
+        if (firebaseAuth.getCurrentUser() != null) {
+            userLiveData.postValue(firebaseAuth.getCurrentUser());
+            loggedOutLiveData.postValue(false);
+        }
     }
 
-    // Method for registering User
-    public void register(String email, String password) {
-        firebaseAuth.createUserWithEmailAndPassword(email,password)
+    public void login(String email, String password) {
+        firebaseAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(application.getMainExecutor(), new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(task.isSuccessful()){
-                            userMutableLiveData.postValue(firebaseAuth.getCurrentUser());
+                        if (task.isSuccessful()) {
+                            userLiveData.postValue(firebaseAuth.getCurrentUser());
                         } else {
-                            Toast.makeText(application, "Registeration Failed" + task.getException().getMessage(), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(application.getApplicationContext(), "Login Failure: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
     }
 
-    // getter
-    public MutableLiveData<FirebaseUser> getUserMutableLiveData() {
-        return userMutableLiveData;
+    public void register(String email, String password) {
+        firebaseAuth.createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener(application.getMainExecutor(), new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            userLiveData.postValue(firebaseAuth.getCurrentUser());
+                        } else {
+                            Toast.makeText(application.getApplicationContext(), "Registration Failure: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+    }
+
+    public void logOut() {
+        firebaseAuth.signOut();
+        loggedOutLiveData.postValue(true);
+    }
+
+    public MutableLiveData<FirebaseUser> getUserLiveData() {
+        return userLiveData;
+    }
+
+    public MutableLiveData<Boolean> getLoggedOutLiveData() {
+        return loggedOutLiveData;
     }
 }
