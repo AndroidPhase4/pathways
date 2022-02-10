@@ -19,4 +19,12 @@
             android:id="@+id/action_loggedInFragment_to_loginRegisterFragment"
             app:destination="@id/loginRegisterFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/bootcampFragment"
+        android:name="com.Phase4.pathways.views.BootcampFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    />
+
 </navigation>
