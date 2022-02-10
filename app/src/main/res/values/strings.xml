@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">pathways</string>
+    <string name="data_scientist">Data Scientist</string>
+    <string name="web_developer">Web Developer</string>
+    <string name="android_developer">Android Developer</string>
+    <string name="cyber_security">Cyber Security</string>
+    <string name="choose_your_path">Choose Your Path</string>
+    <string name="app_title">PathWays</string>
 </resources>

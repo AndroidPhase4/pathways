@@ -36,6 +36,7 @@ public class LoggedInFragment extends Fragment {
         loggedInViewModel.getUserLiveData().observe(this, new Observer<FirebaseUser>() {
             @Override
             public void onChanged(FirebaseUser firebaseUser) {
+                // if fireBase user detected display message
                 if (firebaseUser != null) {
                     loggedInUserTextView.setText("Logged In User: " + firebaseUser.getEmail());
                     logOutButton.setEnabled(true);
