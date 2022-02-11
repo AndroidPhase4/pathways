@@ -19,7 +19,7 @@ class fragment_pathways_details : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_pathways_details_fragment, container, false)
+        return inflater.inflate(R.layout.fragment_pathways_details, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

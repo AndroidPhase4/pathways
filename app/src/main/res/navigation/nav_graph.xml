@@ -28,5 +28,5 @@
         android:id="@+id/fragment_pathways_details"
         android:name="com.Phase4.pathways.fragment_pathways_details"
         android:label="fragment_pathways_details_fragment"
-        tools:layout="@layout/fragment_pathways_details_fragment" />
+        tools:layout="@layout/fragment_pathways_details" />
 </navigation>
