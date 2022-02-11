@@ -19,7 +19,9 @@
         android:label="LoggedInFragment" >
         <action
             android:id="@+id/action_loggedInFragment_to_loginRegisterFragment"
-            app:destination="@id/loginRegisterFragment" />
+            app:destination="@id/loginRegisterFragment"
+            app:popUpTo="@id/loginRegisterFragment"
+            app:popUpToInclusive="true" />
         <action
             android:id="@+id/action_loggedInFragment_to_fragment_pathways_details"
             app:destination="@id/fragment_pathways_details" />

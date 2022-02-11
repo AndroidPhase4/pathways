@@ -25,6 +25,9 @@ public class LoggedInFragment extends Fragment {
     private TextView loggedInUserTextView;
     private Button logOutButton;
 
+    //New Addtion
+    private Button webDeveloperBtn;
+
     private LoggedInViewModel loggedInViewModel;
 
     @Override
@@ -65,11 +68,20 @@ public class LoggedInFragment extends Fragment {
         loggedInUserTextView = view.findViewById(R.id.fragment_loggedin_loggedInUser);
         logOutButton = view.findViewById(R.id.fragment_loggedin_logOut);
 
+        // New Additon
+        webDeveloperBtn = view.findViewById(R.id.WebDeveloperBtn);
+
         logOutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 loggedInViewModel.logOut();
             }
+        });
+
+        //New Addition
+        webDeveloperBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { Navigation.findNavController(getView()).navigate(R.id.action_loggedInFragment_to_fragment_pathways_details);}
         });
 
         return view;

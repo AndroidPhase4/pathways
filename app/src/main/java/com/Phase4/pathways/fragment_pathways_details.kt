@@ -9,23 +9,17 @@ import android.view.ViewGroup
 
 class fragment_pathways_details : Fragment() {
 
-    companion object {
-        fun newInstance() = fragment_pathways_details()
-    }
-
-    private lateinit var viewModel: FragmentPathwaysDetailsViewModel
+//    companion object {
+//        fun newInstance() = fragment_pathways_details()
+//    }
+//
+//    private lateinit var viewModel: FragmentPathwaysDetailsViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragment_pathways_details, container, false)
-    }
-
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(FragmentPathwaysDetailsViewModel::class.java)
-        // TODO: Use the ViewModel
     }
 
 }
