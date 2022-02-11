@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
     app:startDestination="@id/loginRegisterFragment">
-// graph
+
     <fragment
         android:id="@+id/loginRegisterFragment"
         android:name="com.Phase4.pathways.views.LoginRegisterFragment"
@@ -18,5 +20,13 @@
         <action
             android:id="@+id/action_loggedInFragment_to_loginRegisterFragment"
             app:destination="@id/loginRegisterFragment" />
+        <action
+            android:id="@+id/action_loggedInFragment_to_fragment_pathways_details"
+            app:destination="@id/fragment_pathways_details" />
     </fragment>
+    <fragment
+        android:id="@+id/fragment_pathways_details"
+        android:name="com.Phase4.pathways.fragment_pathways_details"
+        android:label="fragment_pathways_details_fragment"
+        tools:layout="@layout/fragment_pathways_details_fragment" />
 </navigation>

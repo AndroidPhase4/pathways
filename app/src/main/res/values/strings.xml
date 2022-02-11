@@ -6,4 +6,9 @@
     <string name="cyber_security">Cyber Security</string>
     <string name="choose_your_path">Choose Your Path</string>
     <string name="app_title">PathWays</string>
+    <string name="log_out">Log Out</string>
+    <string name="guide_title">Web Developer Guide</string>
+    <string name="resource">Resource</string>
+    <string name="boot_camps">Bootcamps</string>
+    <string name="jobs">Jobs</string>
 </resources>

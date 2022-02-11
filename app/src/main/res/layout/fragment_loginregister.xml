@@ -9,11 +9,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:paddingHorizontal="50dp"
         android:paddingVertical="50dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/pathways_logo"
+        android:contentDescription="image"/>
 
     <EditText
         android:id="@+id/fragment_loginregister_email"
