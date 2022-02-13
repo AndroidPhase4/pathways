@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1641475290",
+    "project_id": "pathways-be2a8",
+    "storage_bucket": "pathways-be2a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1641475290:android:ba07960fd7ec6682a889e3",
+        "android_client_info": {
+          "package_name": "com.Phase4.pathways"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1641475290-5c4o26shnone3t5o23gosl1npk6bie4m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Phase4.pathways",
+            "certificate_hash": "f8778e3143da83d8080a4e49586f6c415063e8a2"
+          }
+        },
+        {
+          "client_id": "1641475290-988j0paheo1pj803ilmge1r2hp69fho7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr90wQU_MdHq80O-LlCVLiuUJUk69yvrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1641475290-988j0paheo1pj803ilmge1r2hp69fho7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
