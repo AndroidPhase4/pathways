@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 //        setupActionBarWithNavController(navController)
     }
 
-    //New Addition in Kotlin
+    //New Addition
 //    override fun onSupportNavigationUp(): Boolean {
 //        return navController.navigateUp() || super.onSupportNavigateUp()
 //    }

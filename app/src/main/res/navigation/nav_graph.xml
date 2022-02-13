@@ -23,12 +23,20 @@
             app:popUpTo="@id/loginRegisterFragment"
             app:popUpToInclusive="true" />
         <action
-            android:id="@+id/action_loggedInFragment_to_fragment_pathways_details"
-            app:destination="@id/fragment_pathways_details" />
+            android:id="@+id/action_loggedInFragment_to_fragment_web_developer_details"
+            app:destination="@id/fragment_web_developer_details" />
+        <action
+            android:id="@+id/action_loggedInFragment_to_fragment_android_developer_details"
+            app:destination="@id/fragment_android_developer_details" />
     </fragment>
     <fragment
-        android:id="@+id/fragment_pathways_details"
-        android:name="com.Phase4.pathways.fragment_pathways_details"
+        android:id="@+id/fragment_web_developer_details"
+        android:name="com.Phase4.pathways.views.fragment_web_developer_details"
         android:label="fragment_pathways_details_fragment"
-        tools:layout="@layout/fragment_pathways_details" />
+        tools:layout="@layout/fragment_web_developer_details" />
+    <fragment
+        android:id="@+id/fragment_android_developer_details"
+        android:name="com.Phase4.pathways.views.Fragment_android_developer_details"
+        android:label="fragment_android_developer_details"
+        tools:layout="@layout/fragment_android_developer_details" />
 </navigation>
