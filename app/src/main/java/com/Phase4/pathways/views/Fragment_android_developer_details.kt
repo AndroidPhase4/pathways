@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.Phase4.pathways.R
 
 
-    public final class Fragment_android_developer_details : Fragment() {
+    public final class fragment_android_developer_details : Fragment() {
 
         override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
