@@ -25,6 +25,10 @@ public class LoggedInFragment extends Fragment {
     private TextView loggedInUserTextView;
     private Button logOutButton;
 
+    //New Addition
+    private Button webDeveloperBtn;
+    private Button androidDeveloperBtn;
+
     private LoggedInViewModel loggedInViewModel;
 
     @Override
@@ -36,6 +40,7 @@ public class LoggedInFragment extends Fragment {
         loggedInViewModel.getUserLiveData().observe(this, new Observer<FirebaseUser>() {
             @Override
             public void onChanged(FirebaseUser firebaseUser) {
+                // if fireBase user detected display message
                 if (firebaseUser != null) {
                     loggedInUserTextView.setText("Logged In User: " + firebaseUser.getEmail());
                     logOutButton.setEnabled(true);
@@ -64,11 +69,26 @@ public class LoggedInFragment extends Fragment {
         loggedInUserTextView = view.findViewById(R.id.fragment_loggedin_loggedInUser);
         logOutButton = view.findViewById(R.id.fragment_loggedin_logOut);
 
+        // Homescreen branch Additon
+        webDeveloperBtn = view.findViewById(R.id.WebDeveloperBtn);
+        androidDeveloperBtn = view.findViewById(R.id.AndroidDeveloperBtn);
+
         logOutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 loggedInViewModel.logOut();
             }
+        });
+
+        //Homescreen branch Addition
+        webDeveloperBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { Navigation.findNavController(getView()).navigate(R.id.action_loggedInFragment_to_fragment_web_developer_details);}
+        });
+
+        androidDeveloperBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { Navigation.findNavController(getView()).navigate(R.id.action_loggedInFragment_to_fragment_android_developer_details);}
         });
 
         return view;

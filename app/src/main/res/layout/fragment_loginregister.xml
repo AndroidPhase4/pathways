@@ -1,30 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="420dp"
+        android:layout_height="350dp"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="50dp"
+        app:srcCompat="@drawable/pathways_logo"
+        android:contentDescription="image"/>
 
     <EditText
         android:id="@+id/fragment_loginregister_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Email"
         android:inputType="textEmailAddress"
-        android:hint="Email" />
+        android:paddingEnd="20dp"
+        android:textAlignment="center" />
 
     <EditText
         android:id="@+id/fragment_loginregister_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
-        android:hint="Password" />
+        android:paddingStart="20dp"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/fragment_loginregister_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
+        android:orientation="vertical"
         android:text="Login" />
 
     <Button
