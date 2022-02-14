@@ -13,6 +13,7 @@
             android:id="@+id/action_loginRegisterFragment_to_loggedInFragment"
             app:destination="@id/loggedInFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/loggedInFragment"
         android:name="com.Phase4.pathways.views.LoggedInFragment"
@@ -29,14 +30,29 @@
             android:id="@+id/action_loggedInFragment_to_fragment_android_developer_details"
             app:destination="@id/fragment_android_developer_details" />
     </fragment>
+
     <fragment
         android:id="@+id/fragment_web_developer_details"
         android:name="com.Phase4.pathways.views.fragment_web_developer_details"
         android:label="fragment_pathways_details_fragment"
-        tools:layout="@layout/fragment_web_developer_details" />
+        tools:layout="@layout/fragment_web_developer_details">
+    <action android:id="@id/fragment_web_developer_details"
+        app:destination="@id/fragment_bootcamp" />
+    </fragment>
+
     <fragment
         android:id="@+id/fragment_android_developer_details"
         android:name="com.Phase4.pathways.views.Fragment_android_developer_details"
         android:label="fragment_android_developer_details"
         tools:layout="@layout/fragment_android_developer_details" />
+
+    <fragment
+        android:id="@+id/fragment_bootcamp"
+        android:name="com.Phase4.pathways.views.fragment_bootcamp"
+        android:label="fragment_bootcamp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
 </navigation>
