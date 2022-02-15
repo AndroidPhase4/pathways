@@ -36,7 +36,7 @@
         tools:layout="@layout/fragment_web_developer_details" />
     <fragment
         android:id="@+id/fragment_android_developer_details"
-        android:name="com.Phase4.pathways.views.Fragment_android_developer_details"
+        android:name="com.Phase4.pathways.views.fragment_android_developer_details"
         android:label="fragment_android_developer_details"
         tools:layout="@layout/fragment_android_developer_details" />
 </navigation>
