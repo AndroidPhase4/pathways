@@ -28,6 +28,12 @@
         <action
             android:id="@+id/action_loggedInFragment_to_fragment_android_developer_details"
             app:destination="@id/fragment_android_developer_details" />
+        <action
+            android:id="@+id/action_loggedInFragment_to_fragment_cyber_security_details"
+            app:destination="@id/fragment_cyber_security_details" />
+        <action
+            android:id="@+id/action_loggedInFragment_to_fragment_data_scientist_details"
+            app:destination="@id/fragment_data_scientist_details" />
     </fragment>
     <fragment
         android:id="@+id/fragment_web_developer_details"
@@ -39,4 +45,15 @@
         android:name="com.Phase4.pathways.views.fragment_android_developer_details"
         android:label="fragment_android_developer_details"
         tools:layout="@layout/fragment_android_developer_details" />
+    <fragment
+        android:id="@+id/fragment_data_scientist_details"
+        android:name="com.Phase4.pathways.views.fragment_data_scientist_details"
+        android:label="fragment_data_scientist_details"
+        tools:layout="@layout/fragment_data_scientist_details"/>
+    <fragment
+        android:id="@+id/fragment_cyber_security_details"
+        android:name="com.Phase4.pathways.views.fragment_cyber_security_details"
+        android:label="fragment_cyber_security_details"
+        tools:layout="@layout/fragment_cyber_security_details"/>
+
 </navigation>

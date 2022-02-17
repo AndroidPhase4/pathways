@@ -22,7 +22,10 @@ class LoggedInFragment : Fragment() {
     //New Addition
     private var webDeveloperBtn: Button? = null
     private var androidDeveloperBtn: Button? = null
+    private var dataScientistBtn: Button? = null
+    private var cyberSecurityBtn: Button? = null
     private var loggedInViewModel: LoggedInViewModel? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         loggedInViewModel = ViewModelProvider(this).get(LoggedInViewModel::class.java)
@@ -56,6 +59,9 @@ class LoggedInFragment : Fragment() {
 
         webDeveloperBtn = view.findViewById(R.id.WebDeveloperBtn)
         androidDeveloperBtn = view.findViewById(R.id.AndroidDeveloperBtn)
+        dataScientistBtn = view.findViewById(R.id.DataScientistBtn)
+        cyberSecurityBtn = view.findViewById(R.id.CyberSecurityBtn)
+
         logOutButton?.setOnClickListener(View.OnClickListener { loggedInViewModel!!.logOut() })
 
         webDeveloperBtn?.setOnClickListener(View.OnClickListener {
@@ -68,6 +74,17 @@ class LoggedInFragment : Fragment() {
                 requireView()
             ).navigate(R.id.action_loggedInFragment_to_fragment_android_developer_details)
         })
+        dataScientistBtn?.setOnClickListener(View.OnClickListener {
+            Navigation.findNavController(
+                requireView()
+            ).navigate(R.id.action_loggedInFragment_to_fragment_data_scientist_details)
+        })
+        cyberSecurityBtn?.setOnClickListener(View.OnClickListener {
+            Navigation.findNavController(
+                requireView()
+            ).navigate(R.id.action_loggedInFragment_to_fragment_cyber_security_details)
+        })
+
         return view
     }
 }

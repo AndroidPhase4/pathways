@@ -7,6 +7,8 @@
         <entry key="app/src/main/res/layout/bootcamp_list.xml" value="0.353125" />
         <entry key="app/src/main/res/layout/fragment_android_developer_details.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_bootcamp.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/fragment_cyber_security_details.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_data_scientist_details_fragment.xml" value="0.2890625" />
         <entry key="app/src/main/res/layout/fragment_loggedin.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_loginegister.xml" value="0.18645833333333334" />
         <entry key="app/src/main/res/layout/fragment_loginregister.xml" value="0.25" />
