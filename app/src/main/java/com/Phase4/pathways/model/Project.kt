@@ -1,6 +1,6 @@
 package com.Phase4.pathways.model
 
-class Project(var name: String,
-              var description: String,
-              var image: Int
+data class Project(var name: String? = null,
+              var description: String? = null,
+              var image: Int? = null
               )
