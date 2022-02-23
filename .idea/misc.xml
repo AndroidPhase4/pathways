@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../Downloads/Kotlin_Mars_app-main/app/src/main/res/drawable/ic_broken_image.xml" value="0.2916666666666667" />
+        <entry key="../Downloads/Kotlin_Mars_app-main/app/src/main/res/drawable/ic_connection_error.xml" value="0.17916666666666667" />
+        <entry key="app/src/main/res/drawable-v24/ic_broken_image.xml" value="0.2916666666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/bootcamp_list.xml" value="0.353125" />
         <entry key="app/src/main/res/layout/fragment_android_developer_details.xml" value="0.22" />
@@ -13,11 +16,18 @@
         <entry key="app/src/main/res/layout/fragment_loginegister.xml" value="0.18645833333333334" />
         <entry key="app/src/main/res/layout/fragment_loginregister.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_pathways_details_fragment.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_recyclerview_bootcamps.xml" value="0.2755208333333333" />
         <entry key="app/src/main/res/layout/fragment_web_developer_details.xml" value="0.1675925925925926" />
+        <entry key="app/src/main/res/layout/grid_view_item.xml" value="0.2755208333333333" />
         <entry key="app/src/main/res/layout/home_pathways_fragment.xml" value="0.175" />
+        <entry key="app/src/main/res/layout/item_bootcamp.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item_header.xml" value="0.1703125" />
         <entry key="app/src/main/res/layout/login.xml" value="0.1328125" />
+        <entry key="app/src/main/res/layout/movies_fragment.xml" value="0.1703125" />
         <entry key="app/src/main/res/layout/pathwaylist.xml" value="0.1890625" />
         <entry key="app/src/main/res/layout/pathways_home.xml" value="0.2625" />
+        <entry key="app/src/main/res/layout/recyclerview_bootcamps.xml" value="0.2564814814814815" />
+        <entry key="app/src/main/res/layout/recyclerview_row_bootcamp.xml" value="0.1" />
       </map>
     </option>
   </component>

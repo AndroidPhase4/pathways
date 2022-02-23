@@ -4,20 +4,35 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.NavigationUI.setupActionBarWithNavController
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.Phase4.pathways.R
+import kotlinx.android.synthetic.main.recyclerview_bootcamps.rvBootcamps
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var navController: NavController
+    private lateinit var bootcampAdapter: BootcampAdapter
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        var bootcampList = mutableListOf(
+            Bootcamp("FullstackAcademy"),
+            Bootcamp("Flatiron")
+        )
+        println("After bootcamp list")
+
+        bootcampAdapter = BootcampAdapter(bootcampList)
+
+        rvBootcamps?.adapter = bootcampAdapter
+        rvBootcamps?.layoutManager = LinearLayoutManager(this)
+
+
+
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.activity_main_navHostFragment) as NavHostFragment
         navController = navHostFragment.navController
-
-//        setupActionBarWithNavController(navController)
     }
 
     //New Addition
