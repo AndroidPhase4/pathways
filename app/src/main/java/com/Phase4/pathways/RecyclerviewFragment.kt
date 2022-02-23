@@ -17,7 +17,7 @@ import kotlin.collections.ArrayList
 class RecyclerviewFragment : Fragment() {
 
     private lateinit var layoutManager: RecyclerView.LayoutManager
-    private lateinit var adapter: RecyclerView.Adapter<RecyclerView.ViewHolder>
+    private lateinit var adapter: ProjectAdapter
     val title: List<Project> = ArrayList()
 
 
@@ -41,7 +41,7 @@ class RecyclerviewFragment : Fragment() {
     private fun initRecyclerView(view: View){
         val recyclerView = view.findViewById<RecyclerView>(R.id.recyclerview)
         recyclerView.layoutManager = LinearLayoutManager(activity)
-
+        adapter = ProjectAdapter(title)
         recyclerView.adapter = adapter
     }
 

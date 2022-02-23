@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
     app:startDestination="@id/loginRegisterFragment">
 // graph
     <fragment
@@ -8,8 +10,8 @@
         android:name="com.Phase4.pathways.views.LoginRegisterFragment"
         android:label="LoginRegisterFragment" >
         <action
-            android:id="@+id/action_loginRegisterFragment_to_loggedInFragment"
-            app:destination="@id/loggedInFragment" />
+            android:id="@+id/action_loginRegisterFragment_to_recyclerviewFragment"
+            app:destination="@id/recyclerviewFragment" />
     </fragment>
     <fragment
         android:id="@+id/loggedInFragment"
@@ -18,5 +20,13 @@
         <action
             android:id="@+id/action_loggedInFragment_to_loginRegisterFragment"
             app:destination="@id/loginRegisterFragment" />
+        <action
+            android:id="@+id/action_loggedInFragment_to_recyclerviewFragment"
+            app:destination="@id/recyclerviewFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/recyclerviewFragment"
+        android:name="com.Phase4.pathways.RecyclerviewFragment"
+        android:label="fragment_recyclerview"
+        tools:layout="@layout/fragment_recyclerview" />
 </navigation>

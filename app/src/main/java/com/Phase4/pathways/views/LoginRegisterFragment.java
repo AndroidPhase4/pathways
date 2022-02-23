@@ -38,7 +38,7 @@ public class LoginRegisterFragment extends Fragment {
             @Override
             public void onChanged(FirebaseUser firebaseUser) {
                 if (firebaseUser != null) {
-                    Navigation.findNavController(getView()).navigate(R.id.action_loginRegisterFragment_to_loggedInFragment);
+                    Navigation.findNavController(getView()).navigate(R.id.action_loginRegisterFragment_to_recyclerviewFragment);
                 }
             }
         });

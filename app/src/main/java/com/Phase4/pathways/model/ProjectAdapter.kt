@@ -3,11 +3,12 @@ package com.Phase4.pathways.model
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.Phase4.pathways.R
 
-class ProjectAdapter(val project: Project) : RecyclerView.Adapter<ProjectViewHolder>() {
+class ProjectAdapter(val project: List<Project>) : RecyclerView.Adapter<ProjectViewHolder>() {
 
     private var titles =
         arrayOf("Software Developer", "Data Science", "IT Specialist", "UX Designer")
@@ -38,7 +39,7 @@ class ProjectAdapter(val project: Project) : RecyclerView.Adapter<ProjectViewHol
 }
 
 class ProjectViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-     var imageView: TextView = itemView.findViewById(R.id.image_view_project_icon)
+     var imageView: ImageView = itemView.findViewById(R.id.image_view_project_icon)
      var textViewTitle: TextView = itemView.findViewById(R.id.text_view_project_title)
      var textViewDesc: TextView = itemView.findViewById(R.id.text_view_project_desc)
 
