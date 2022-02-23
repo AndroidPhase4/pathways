@@ -36,8 +36,9 @@
         android:name="com.Phase4.pathways.views.fragment_web_developer_details"
         android:label="fragment_pathways_details_fragment"
         tools:layout="@layout/fragment_web_developer_details">
-    <action android:id="@id/fragment_web_developer_details"
-        app:destination="@id/fragment_bootcamp" />
+        <action
+            android:id="@+id/action_fragment_web_developer_details_to_fragment_bootcamp"
+            app:destination="@id/fragment_bootcamp" />
     </fragment>
 
     <fragment
@@ -48,7 +49,7 @@
 
     <fragment
         android:id="@+id/fragment_bootcamp"
-        android:name="com.Phase4.pathways.views.fragment_bootcamp"
+        android:name="com.Phase4.pathways.views.Fragment_bootcamp"
         android:label="fragment_bootcamp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
