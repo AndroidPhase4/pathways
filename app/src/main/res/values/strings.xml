@@ -9,6 +9,8 @@
     <string name="log_out">Log Out</string>
     <string name="guide_title">Web Developer \n Guide</string>
     <string name="android_title">Android Developer \n Guide</string>
+    <string name="data_scientist_title">Data Scientist \n Guide</string>
+    <string name="cyber_security_title">Cyber Security \n Guide</string>
     <string name="resource">Resource</string>
     <string name="boot_camps">Bootcamps</string>
     <string name="jobs">Jobs</string>

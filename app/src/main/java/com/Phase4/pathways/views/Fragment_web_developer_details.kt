@@ -12,8 +12,6 @@ import com.Phase4.pathways.R
 
 
 class fragment_web_developer_details : Fragment() {
-//    private val loggedInUserTextView: TextView? = null
-//    private var logOutButton: Button? = null
     private var bootcampBtn: Button? = null
 
     override fun onCreateView(
@@ -29,11 +27,7 @@ class fragment_web_developer_details : Fragment() {
                 requireView()
             ).navigate(R.id.action_fragment_web_developer_details_to_fragment_bootcamp)
         })
-
-//        return inflater.inflate(R.layout.fragment_web_developer_details, container, false)
         return view
     }
-
-
 }
 
