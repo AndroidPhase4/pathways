@@ -14,27 +14,27 @@
         >
 
         <ImageView
-            android:id="@+id/image_view_project_icon"
+            android:id="@+id/bootcamp_image"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_margin="12dp"
             android:src="@drawable/ic_launcher_background" />
 
         <TextView
-            android:id="@+id/text_view_project_title"
+            android:id="@+id/bootcamp_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/image_view_project_icon"
-            android:layout_toEndOf="@id/image_view_project_icon"
+            android:layout_alignTop="@id/bootcamp_image"
+            android:layout_toEndOf="@id/bootcamp_image"
             android:text="The App Title" />
 
         <TextView
-            android:id="@+id/text_view_project_desc"
+            android:id="@+id/bootcamp_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/text_view_project_title"
+            android:layout_below="@id/bootcamp_title"
             android:layout_marginTop="4dp"
-            android:layout_toEndOf="@id/image_view_project_icon"
+            android:layout_toEndOf="@id/bootcamp_image"
             android:text="This is the desc of the project" />
 
 

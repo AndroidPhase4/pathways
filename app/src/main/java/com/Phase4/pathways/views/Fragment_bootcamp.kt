@@ -25,8 +25,8 @@ class Fragment_bootcamp : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_bootcamp, container, false)
 
-        val title = view.findViewById<TextView>(R.id.text_view_project_title)
-        val description = view.findViewById<TextView>(R.id.text_view_project_desc)
+        val title = view.findViewById<TextView>(R.id.bootcamp_title)
+        val description = view.findViewById<TextView>(R.id.bootcamp_desc)
 
         initRecyclerView(view)
         return view

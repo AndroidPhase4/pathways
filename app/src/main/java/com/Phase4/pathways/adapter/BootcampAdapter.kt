@@ -54,9 +54,9 @@ class BootcampAdapter (val bootcamp: List<Bootcamp>) : RecyclerView.Adapter<Boot
                 "The school offers an income-share agreement for some of its bootcamps but recommends that students make upfront payments or set up installment plans to save money. It offers externally audited outcome data through CIRR.\n",
         "TechPro Education offers online boot camps in Data Science (26 weeks), Full Stack Automation Engineer (21 weeks), Cyber Security (16 weeks), AWS & DevOps Engineering (21 weeks), Full Stack Mobile Developer (24 weeks), Full Stack Java Developer (24 weeks), Back End Developer (24 weeks), Salesforce Developer (14 weeks), and Front End Developer (18 weeks). \n" +
                 "TechProEducation offers mentorship and 1:1 tutoring sessions to students needing extra support. Students should expect to commit 24 hours per week to their bootcamp program. No prior technical background is required to enroll in TechProEducation bootcamps. TechProEducation bootcamp students do receive career assistance, including a 6-month internship placement and job application preparation. Upon graduation, TechProEducation bootcamp students will receive a certificate of completion.\n",
-        
-    )
 
+    )
+//
 //    private var image = arrayOf(
 //
 //    )
@@ -70,7 +70,7 @@ class BootcampAdapter (val bootcamp: List<Bootcamp>) : RecyclerView.Adapter<Boot
 
         holder.textViewTitle.text = titles[position]
         holder.textViewDesc.text = description[position]
-//        holder.imageView.text = image[position]
+//        holder.imageView.image = image[position]
 
     }
 
@@ -80,7 +80,7 @@ class BootcampAdapter (val bootcamp: List<Bootcamp>) : RecyclerView.Adapter<Boot
 }
 
 class BootcampViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-    var imageView: ImageView = itemView.findViewById(R.id.image_view_project_icon)
-    var textViewTitle: TextView = itemView.findViewById(R.id.text_view_project_title)
-    var textViewDesc: TextView = itemView.findViewById(R.id.text_view_project_desc)
+    var imageView: ImageView = itemView.findViewById(R.id.bootcamp_image)
+    var textViewTitle: TextView = itemView.findViewById(R.id.bootcamp_title)
+    var textViewDesc: TextView = itemView.findViewById(R.id.bootcamp_desc)
 }
