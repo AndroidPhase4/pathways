@@ -3,7 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/19178/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_loggedin.xml" value="0.134375" />
+=======
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/bootcamp_list.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/fragment_android_developer_details.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_bootcamp.xml" value="0.353125" />
+        <entry key="app/src/main/res/layout/fragment_loggedin.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_loginegister.xml" value="0.18645833333333334" />
+        <entry key="app/src/main/res/layout/fragment_loginregister.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_pathways_details_fragment.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_web_developer_details.xml" value="0.1675925925925926" />
+        <entry key="app/src/main/res/layout/home_pathways_fragment.xml" value="0.175" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.1328125" />
+        <entry key="app/src/main/res/layout/pathwaylist.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/pathways_home.xml" value="0.2625" />
+>>>>>>> 94d3921d5213ae5a17076451e0bc4211c070a243
       </map>
     </option>
   </component>

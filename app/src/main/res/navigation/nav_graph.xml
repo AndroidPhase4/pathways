@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
     app:startDestination="@id/loginRegisterFragment">
-// graph
+
     <fragment
         android:id="@+id/loginRegisterFragment"
         android:name="com.Phase4.pathways.views.LoginRegisterFragment"
@@ -17,6 +19,24 @@
         android:label="LoggedInFragment" >
         <action
             android:id="@+id/action_loggedInFragment_to_loginRegisterFragment"
-            app:destination="@id/loginRegisterFragment" />
+            app:destination="@id/loginRegisterFragment"
+            app:popUpTo="@id/loginRegisterFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loggedInFragment_to_fragment_web_developer_details"
+            app:destination="@id/fragment_web_developer_details" />
+        <action
+            android:id="@+id/action_loggedInFragment_to_fragment_android_developer_details"
+            app:destination="@id/fragment_android_developer_details" />
     </fragment>
+    <fragment
+        android:id="@+id/fragment_web_developer_details"
+        android:name="com.Phase4.pathways.views.fragment_web_developer_details"
+        android:label="fragment_pathways_details_fragment"
+        tools:layout="@layout/fragment_web_developer_details" />
+    <fragment
+        android:id="@+id/fragment_android_developer_details"
+        android:name="com.Phase4.pathways.views.Fragment_android_developer_details"
+        android:label="fragment_android_developer_details"
+        tools:layout="@layout/fragment_android_developer_details" />
 </navigation>

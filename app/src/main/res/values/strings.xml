@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">pathways</string>
+    <string name="data_scientist">Data Scientist</string>
+    <string name="web_developer">Web Developer</string>
+    <string name="android_developer">Android Developer</string>
+    <string name="cyber_security">Cyber Security</string>
+    <string name="choose_your_path">Choose Your Path</string>
+    <string name="app_title">PathWays</string>
+    <string name="log_out">Log Out</string>
+    <string name="guide_title">Web Developer \n Guide</string>
+    <string name="android_title">Android Developer \n Guide</string>
+    <string name="resource">Resource</string>
+    <string name="boot_camps">Bootcamps</string>
+    <string name="jobs">Jobs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
