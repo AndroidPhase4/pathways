@@ -1,6 +1,5 @@
-package com.Phase4.pathways.adapter
+package com.Phase4.pathways.model
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,38 +7,44 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.Phase4.pathways.R
-import com.Phase4.pathways.model.Bootcamp
+//import kotlinx.android.synthetic.main.item_bootcamp.view.*
 
-class BootcampAdapter(
-    private val context: Context,
-    private val dataset: List<Bootcamp>
-) : RecyclerView.Adapter<BootcampAdapter.BootcampViewHolder> () {
-    class BootcampViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
-        val textView: TextView = view.findViewById(R.id.bootcamp_title)
-        val textView2: TextView = view.findViewById(R.id.bootcamp_description)
-        val imageView: ImageView = view.findViewById(R.id.bootcamp_image)
-    }
+class BootcampAdapter (val bootcamp: List<Bootcamp>) : RecyclerView.Adapter<BootcampViewHolder>() {
+
+
+    private var titles = arrayOf("Software Developer", "Data Science", "IT Specialist", "UX Designer")
+
+    private var description = arrayOf(
+        "This how you become a software developer",
+        "This is how you become a data scienctist",
+        "This is how you become a IT specialist",
+        "This how you become a UX Designer"
+    )
+
+//    private var image = arrayOf(
+//
+//    )
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BootcampViewHolder {
-        // create a new view
-        val adapterLayout = LayoutInflater.from(parent.context)
-            .inflate(R.layout.bootcamp_list, parent, false)
-
-        return BootcampViewHolder(adapterLayout)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.bootcamp_list, parent, false)
+        return BootcampViewHolder(view)
     }
-
 
     override fun onBindViewHolder(holder: BootcampViewHolder, position: Int) {
-        val item = dataset[position]
-        holder.textView.text =  context.resources.getString(item.stringResourceId)
-        holder.textView2.text =  context.resources.getString(item.stringResourceId2)
-        holder.imageView.setImageResource(item.imageResourceId)
-    }
 
+        holder.textViewTitle.text = titles[position]
+        holder.textViewDesc.text = description[position]
+//        holder.imageView.text = image[position]
+
+    }
 
     override fun getItemCount(): Int {
-        return dataset.size
+        return titles.size
     }
+}
 
-
+class BootcampViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    var imageView: ImageView = itemView.findViewById(R.id.image_view_project_icon)
+    var textViewTitle: TextView = itemView.findViewById(R.id.text_view_project_title)
+    var textViewDesc: TextView = itemView.findViewById(R.id.text_view_project_desc)
 }

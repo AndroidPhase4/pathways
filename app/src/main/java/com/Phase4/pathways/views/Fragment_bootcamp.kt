@@ -5,80 +5,42 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
-import androidx.databinding.DataBindingUtil.setContentView
-import androidx.navigation.NavController
-import androidx.navigation.fragment.NavHostFragment
+import android.widget.TextView
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.Phase4.pathways.R
-import com.Phase4.pathways.adapter.BootcampAdapter
-import com.Phase4.pathways.data.Datasource
+import com.Phase4.pathways.model.Bootcamp
+import com.Phase4.pathways.model.BootcampAdapter
 
 
-class Fragment_bootcamp : AppCompatActivity() {
-    private lateinit var navController: NavController
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class Fragment_bootcamp : Fragment() {
 
-        val navHostFragment = supportFragmentManager
-            .findFragmentById(R.id.activity_main_navHostFragment) as NavHostFragment
-        navController = navHostFragment.navController
+    private lateinit var layoutManager: RecyclerView.LayoutManager
+    private lateinit var adapter: BootcampAdapter
+    val title: List<Bootcamp> = ArrayList()
 
-//        setupActionBarWithNavController(navController)
-        //initializing data == test location
-        val myDataset = Datasource().loadBootcamps()
-        var recylclerView = findViewById<RecyclerView>(R.id.recycler_view)
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val view = inflater.inflate(R.layout.fragment_bootcamp, container, false)
 
-        recylclerView.adapter = BootcampAdapter(this,myDataset)
-        recylclerView.setHasFixedSize(true)
+        val title = view.findViewById<TextView>(R.id.text_view_project_title)
+        val description = view.findViewById<TextView>(R.id.text_view_project_desc)
+
+        initRecyclerView(view)
+        return view
     }
-}
 
-//private const val ARG_PARAM1 = "param1"
-//private const val ARG_PARAM2 = "param2"
-//
-//
-//class Fragment_bootcamp : Fragment() {
-//    private var param1: String? = null
-//    private var param2: String? = null
-//
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-////        setContentView(R.layout.bootcamp_list)
-////
-////
-////        //initializing data == test location
-////        val myDataset = Datasource().loadBootcamps()
-////        var recylclerView = findViewById<RecyclerView>(R.id.recycler_view)
-////
-////        recylclerView.adapter = BootcampAdapter(this,myDataset)
-////        recylclerView.setHasFixedSize(true)
-//
-//
-//        arguments?.let {
-//            param1 = it.getString(ARG_PARAM1)
-//            param2 = it.getString(ARG_PARAM2)
-//        }
-//
-//    }
-//
-//    override fun onCreateView(
-//        inflater: LayoutInflater, container: ViewGroup?,
-//        savedInstanceState: Bundle?
-//    ): View? {
-//        // Inflate the layout for this fragment
-//        return inflater.inflate(R.layout.fragment_bootcamp, container, false)
-//    }
-//
-//    companion object {
-//
-//        fun newInstance(param1: String, param2: String) =
-//            Fragment_bootcamp().apply {
-//                arguments = Bundle().apply {
-//                    putString(ARG_PARAM1, param1)
-//                    putString(ARG_PARAM2, param2)
-//                }
-//            }
-//    }
-//}
+    private fun initRecyclerView(view: View) {
+        val recyclerView = view.findViewById<RecyclerView>(R.id.rvBootcamps)
+        recyclerView.layoutManager = LinearLayoutManager(activity)
+        adapter = BootcampAdapter(title)
+        recyclerView.adapter = adapter
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+    }
+
+}
