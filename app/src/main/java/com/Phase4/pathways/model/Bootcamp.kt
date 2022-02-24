@@ -1,7 +1,10 @@
 package com.Phase4.pathways.model
 
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+
 data class Bootcamp(
-    var name: String? = null,
-    val description: String? = null,
-    var image: Int? = null
+    @StringRes val stringResourceId: Int,
+    @StringRes val stringResourceId2: Int,
+    @DrawableRes val imageResourceId: Int
 )

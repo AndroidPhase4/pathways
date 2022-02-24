@@ -10,6 +10,7 @@ import com.Phase4.pathways.model.Bootcamp
 import com.Phase4.pathways.model.BootcampAdapter
 import kotlinx.android.synthetic.main.recyclerview_bootcamps.rvBootcamps
 
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var navController: NavController
@@ -19,27 +20,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var bootcampList = mutableListOf(
-            Bootcamp("FullstackAcademy"),
-            Bootcamp("Flatiron")
-        )
-        println("After bootcamp list")
-
-        bootcampAdapter = BootcampAdapter(bootcampList)
-
-        rvBootcamps?.adapter = bootcampAdapter
-        rvBootcamps?.layoutManager = LinearLayoutManager(this)
-
-
-
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.activity_main_navHostFragment) as NavHostFragment
         navController = navHostFragment.navController
-    }
 
-    //New Addition
-//    override fun onSupportNavigationUp(): Boolean {
-//        return navController.navigateUp() || super.onSupportNavigateUp()
-//    }
+      }
+
 }
-

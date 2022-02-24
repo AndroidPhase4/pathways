@@ -13,6 +13,7 @@
             android:id="@+id/action_loginRegisterFragment_to_loggedInFragment"
             app:destination="@id/loggedInFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/loggedInFragment"
         android:name="com.Phase4.pathways.views.LoggedInFragment"
@@ -43,8 +44,11 @@
         <action
             android:id="@+id/action_fragment_web_developer_details_to_fragment_bootcamplist"
             app:destination="@id/fragment_bootcamplist" />
+        tools:layout="@layout/fragment_web_developer_details">
+        <action
+            android:id="@+id/action_fragment_web_developer_details_to_fragment_bootcamp"
+            app:destination="@id/fragment_bootcamp" />
     </fragment>
-
     <fragment
         android:id="@+id/fragment_android_developer_details"
         android:name="com.Phase4.pathways.views.fragment_android_developer_details"
@@ -64,5 +68,11 @@
         android:id="@+id/fragment_bootcamplist"
         android:name="com.Phase4.pathways.views.fragment_bootcamplist"
         android:label="fragment_bootcamplist" />
-
+    <fragment
+        android:id="@+id/fragment_bootcamp"
+        android:name="com.Phase4.pathways.views.Fragment_bootcamp"
+        android:label="fragment_bootcamp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
 </navigation>
