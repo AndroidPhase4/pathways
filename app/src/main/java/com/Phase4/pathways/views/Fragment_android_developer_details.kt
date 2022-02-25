@@ -11,6 +11,7 @@ import com.Phase4.pathways.R
 
 
     class fragment_android_developer_details : Fragment() {
+      
         private var bootcampBtn: Button? = null
 
         override fun onCreateView(
