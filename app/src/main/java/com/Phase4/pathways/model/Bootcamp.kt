@@ -8,4 +8,3 @@ data class Bootcamp(
     @StringRes val stringResourceId2: Int,
     @DrawableRes val imageResourceId: Int
 )
-

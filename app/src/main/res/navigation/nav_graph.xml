@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/loginRegisterFragment"
         android:name="com.Phase4.pathways.views.LoginRegisterFragment"
-        android:label="LoginRegisterFragment" >
+        android:label="LoginRegisterFragment">
         <action
             android:id="@+id/action_loginRegisterFragment_to_loggedInFragment"
             app:destination="@id/loggedInFragment" />
@@ -17,7 +17,7 @@
     <fragment
         android:id="@+id/loggedInFragment"
         android:name="com.Phase4.pathways.views.LoggedInFragment"
-        android:label="LoggedInFragment" >
+        android:label="LoggedInFragment">
         <action
             android:id="@+id/action_loggedInFragment_to_loginRegisterFragment"
             app:destination="@id/loginRegisterFragment"
@@ -29,8 +29,13 @@
         <action
             android:id="@+id/action_loggedInFragment_to_fragment_android_developer_details"
             app:destination="@id/fragment_android_developer_details" />
+        <action
+            android:id="@+id/action_loggedInFragment_to_fragment_cyber_security_details"
+            app:destination="@id/fragment_cyber_security_details" />
+        <action
+            android:id="@+id/action_loggedInFragment_to_fragment_data_scientist_details"
+            app:destination="@id/fragment_data_scientist_details" />
     </fragment>
-
     <fragment
         android:id="@+id/fragment_web_developer_details"
         android:name="com.Phase4.pathways.views.fragment_web_developer_details"
@@ -40,20 +45,37 @@
             android:id="@+id/action_fragment_web_developer_details_to_fragment_bootcamp"
             app:destination="@id/fragment_bootcamp" />
     </fragment>
-
     <fragment
         android:id="@+id/fragment_android_developer_details"
         android:name="com.Phase4.pathways.views.fragment_android_developer_details"
         android:label="fragment_android_developer_details"
-        tools:layout="@layout/fragment_android_developer_details" />
-
+        tools:layout="@layout/fragment_android_developer_details">
+        <action
+            android:id="@+id/action_fragment_android_developer_details_to_fragment_bootcamp"
+            app:destination="@id/fragment_bootcamp" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_data_scientist_details"
+        android:name="com.Phase4.pathways.views.fragment_data_scientist_details"
+        android:label="fragment_data_scientist_details"
+        tools:layout="@layout/fragment_data_scientist_details">
+        <action
+            android:id="@+id/action_fragment_data_scientist_details_to_fragment_bootcamp"
+            app:destination="@id/fragment_bootcamp" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_cyber_security_details"
+        android:name="com.Phase4.pathways.views.fragment_cyber_security_details"
+        android:label="fragment_cyber_security_details"
+        tools:layout="@layout/fragment_cyber_security_details">
+        <action
+            android:id="@+id/action_fragment_cyber_security_details_to_fragment_bootcamp"
+            app:destination="@id/fragment_bootcamp" />
+    </fragment>
     <fragment
         android:id="@+id/fragment_bootcamp"
         android:name="com.Phase4.pathways.views.Fragment_bootcamp"
         android:label="fragment_bootcamp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
-
-
+        android:layout_height="match_parent" />
 </navigation>

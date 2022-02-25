@@ -7,7 +7,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.Phase4.pathways.R
-//import kotlinx.android.synthetic.main.item_bootcamp.view.*
 
 class BootcampAdapter (val bootcamp: List<Bootcamp>) : RecyclerView.Adapter<BootcampViewHolder>() {
 
