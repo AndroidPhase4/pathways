@@ -14,7 +14,6 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 
-//import androidx.lifecycle.ViewModelProviders;
 class LoginRegisterFragment : Fragment() {
     private var emailEditText: EditText? = null
     private var passwordEditText: EditText? = null

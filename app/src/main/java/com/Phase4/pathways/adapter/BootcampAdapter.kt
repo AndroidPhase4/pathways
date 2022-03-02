@@ -55,10 +55,6 @@ class BootcampAdapter (val bootcamp: List<Bootcamp>) : RecyclerView.Adapter<Boot
                 "TechProEducation offers mentorship and 1:1 tutoring sessions to students needing extra support. Students should expect to commit 24 hours per week to their bootcamp program. No prior technical background is required to enroll in TechProEducation bootcamps. TechProEducation bootcamp students do receive career assistance, including a 6-month internship placement and job application preparation. Upon graduation, TechProEducation bootcamp students will receive a certificate of completion.\n",
 
     )
-//
-//    private var image = arrayOf(
-//
-//    )
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BootcampViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.bootcamp_list, parent, false)
@@ -69,7 +65,6 @@ class BootcampAdapter (val bootcamp: List<Bootcamp>) : RecyclerView.Adapter<Boot
 
         holder.textViewTitle.text = titles[position]
         holder.textViewDesc.text = description[position]
-//        holder.imageView.image = image[position]
 
     }
 

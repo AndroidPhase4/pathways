@@ -14,12 +14,9 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 
-//import androidx.lifecycle.ViewModelProviders;
 class LoggedInFragment : Fragment() {
     private var loggedInUserTextView: TextView? = null
     private var logOutButton: Button? = null
-
-    //New Addition
     private var webDeveloperBtn: Button? = null
     private var androidDeveloperBtn: Button? = null
     private var dataScientistBtn: Button? = null

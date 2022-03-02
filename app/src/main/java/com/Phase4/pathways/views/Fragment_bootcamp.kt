@@ -15,18 +15,14 @@ import com.Phase4.pathways.model.BootcampAdapter
 
 class Fragment_bootcamp : Fragment() {
 
-    private lateinit var layoutManager: RecyclerView.LayoutManager
     private lateinit var adapter: BootcampAdapter
-    val title: List<Bootcamp> = ArrayList()
+    private val title: List<Bootcamp> = ArrayList()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_bootcamp, container, false)
-
-        val title = view.findViewById<TextView>(R.id.bootcamp_title)
-        val description = view.findViewById<TextView>(R.id.bootcamp_desc)
 
         initRecyclerView(view)
         return view
@@ -37,10 +33,6 @@ class Fragment_bootcamp : Fragment() {
         recyclerView.layoutManager = LinearLayoutManager(activity)
         adapter = BootcampAdapter(title)
         recyclerView.adapter = adapter
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
     }
 
 }
