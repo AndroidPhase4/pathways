@@ -9,5 +9,6 @@ interface TechNewsApi {
 //    @GET("/api/v1/search?tags=front_page")
 
     @GET("/todos")
-    fun getHits(): Response<List<Hit>>
+    suspend fun getHits(): Response<List<Hit>>
+
 }
