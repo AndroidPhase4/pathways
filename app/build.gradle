@@ -70,6 +70,7 @@ dependencies {
     //RetroFit and GSON
     implementation 'com.squareup.retrofit2:retrofit:2.6.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
+    implementation "com.squarup.okhttp3:okhttp:4.9.0"
 
     //Kotlin Coroutines
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.0"
