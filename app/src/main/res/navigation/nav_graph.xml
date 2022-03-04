@@ -35,6 +35,9 @@
         <action
             android:id="@+id/action_loggedInFragment_to_fragment_data_scientist_details"
             app:destination="@id/fragment_data_scientist_details" />
+        <action
+            android:id="@+id/action_loggedInFragment_to_techNewsFragment"
+            app:destination="@id/techNewsFragment" />
     </fragment>
     <fragment
         android:id="@+id/fragment_web_developer_details"
@@ -78,4 +81,8 @@
         android:label="fragment_bootcamp"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+    <fragment
+        android:id="@+id/techNewsFragment"
+        android:name="com.Phase4.pathways.TechNewsFragment"
+        android:label="TechNewsFragment" />
 </navigation>

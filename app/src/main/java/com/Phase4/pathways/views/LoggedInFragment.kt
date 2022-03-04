@@ -22,6 +22,7 @@ class LoggedInFragment : Fragment() {
     private var dataScientistBtn: Button? = null
     private var cyberSecurityBtn: Button? = null
     private var loggedInViewModel: LoggedInViewModel? = null
+    private var techNewsBtn: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -59,6 +60,8 @@ class LoggedInFragment : Fragment() {
         dataScientistBtn = view.findViewById(R.id.DataScientistBtn)
         cyberSecurityBtn = view.findViewById(R.id.CyberSecurityBtn)
 
+        techNewsBtn = view.findViewById(R.id.technewsBtn)
+
         logOutButton?.setOnClickListener(View.OnClickListener { loggedInViewModel!!.logOut() })
 
         webDeveloperBtn?.setOnClickListener(View.OnClickListener {
@@ -80,6 +83,11 @@ class LoggedInFragment : Fragment() {
             Navigation.findNavController(
                 requireView()
             ).navigate(R.id.action_loggedInFragment_to_fragment_cyber_security_details)
+        })
+        techNewsBtn?.setOnClickListener(View.OnClickListener {
+            Navigation.findNavController(
+                requireView()
+            ).navigate(R.id.action_loggedInFragment_to_techNewsFragment)
         })
 
         return view

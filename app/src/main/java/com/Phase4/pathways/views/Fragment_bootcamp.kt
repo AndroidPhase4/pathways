@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.Phase4.pathways.R
@@ -14,7 +13,6 @@ import com.Phase4.pathways.model.BootcampAdapter
 
 
 class Fragment_bootcamp : Fragment() {
-
     private lateinit var adapter: BootcampAdapter
     private val title: List<Bootcamp> = ArrayList()
 
