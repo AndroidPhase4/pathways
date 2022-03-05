@@ -10,6 +10,16 @@ import androidx.recyclerview.widget.RecyclerView
 
 class HitAdapter : RecyclerView.Adapter<HitAdapter.HitViewHolder>() {
 
+    // The adapter needs to keep track of a list it should show.
+    // We can simply override the setter here to also submit the list
+    // to the list differ every time we assign a new value to it
+    // (which effectively happens in collectLatest in TechNewsFragment.kt)
+    var hits = emptyList<Hit>()
+        set(value) {
+            field = value
+            differ.submitList(value)
+        }
+
     inner class HitViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val textViewTitle: TextView = itemView.findViewById(R.id.tvTitle)
     }
