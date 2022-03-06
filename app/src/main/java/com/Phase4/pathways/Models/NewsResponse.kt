@@ -1,4 +1,4 @@
-package com.Phase4.pathways
+package com.Phase4.pathways.Models
 
 data class NewsResponse(
     val articles: List<Article>,
