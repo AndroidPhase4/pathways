@@ -3,6 +3,7 @@ package com.Phase4.pathways.db
 import androidx.lifecycle.LiveData
 import androidx.room.*
 import com.Phase4.pathways.Models.Article
+import android.database.Cursor
 
 @Dao
 interface ArticleDao {
