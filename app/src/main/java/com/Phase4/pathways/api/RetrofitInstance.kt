@@ -1,6 +1,6 @@
-package com.Phase4.pathways
+package com.Phase4.pathways.api
 
-import com.Phase4.pathways.Constants.Companion.BASE_URL
+import com.Phase4.pathways.util.Constants.Companion.BASE_URL
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -8,6 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitInstance {
     companion object {
+
         private val retrofit by lazy {
             val logging = HttpLoggingInterceptor()
             logging.setLevel(HttpLoggingInterceptor.Level.BODY)
@@ -22,7 +23,7 @@ class RetrofitInstance {
         }
 
         val api by lazy {
-            retrofit.create(TechNewsApi::class.java)
+            retrofit.create(NewsAPI::class.java)
         }
     }
 }

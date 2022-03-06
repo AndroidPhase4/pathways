@@ -14,6 +14,7 @@
     <string name="resource">Resource</string>
     <string name="boot_camps">Bootcamps</string>
     <string name="jobs">Jobs</string>
+    <string name="api_key">a85bc7f7e0db41b1a8715f0e7fa5acc9</string>
 
     <string name="bootcamp1">App Academy</string>
     <string name="bootcamp1Desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et

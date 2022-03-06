@@ -1,10 +1,9 @@
-package com.Phase4.pathways.views
+package com.Phase4.pathways.ui.fragments
 
 import android.widget.EditText
 import com.Phase4.pathways.viewmodel.LoginRegisterViewModel
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
-import com.google.firebase.auth.FirebaseUser
 import com.Phase4.pathways.R
 import android.view.LayoutInflater
 import android.view.View

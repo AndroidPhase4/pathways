@@ -1,10 +1,9 @@
-package com.Phase4.pathways.views
+package com.Phase4.pathways.ui.fragments
 
 import android.widget.TextView
 import com.Phase4.pathways.viewmodel.LoggedInViewModel
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
-import com.google.firebase.auth.FirebaseUser
 import android.widget.Toast
 import com.Phase4.pathways.R
 import android.view.LayoutInflater
@@ -84,11 +83,11 @@ class LoggedInFragment : Fragment() {
                 requireView()
             ).navigate(R.id.action_loggedInFragment_to_fragment_cyber_security_details)
         })
-        techNewsBtn?.setOnClickListener(View.OnClickListener {
-            Navigation.findNavController(
-                requireView()
-            ).navigate(R.id.action_loggedInFragment_to_techNewsFragment)
-        })
+//        techNewsBtn?.setOnClickListener(View.OnClickListener {
+//            Navigation.findNavController(
+//                requireView()
+//            ).navigate(R.id.action_loggedInFragment_to_techNewsFragment)
+//        })
 
         return view
     }
