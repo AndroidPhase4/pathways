@@ -12,6 +12,9 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
+import androidx.navigation.fragment.findNavController
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import kotlinx.android.synthetic.main.activity_news.*
 
 class LoginRegisterFragment : Fragment() {
     private var emailEditText: EditText? = null
@@ -19,6 +22,8 @@ class LoginRegisterFragment : Fragment() {
     private var loginButton: Button? = null
     private var registerButton: Button? = null
     private var loginRegisterViewModel: LoginRegisterViewModel? = null
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         loginRegisterViewModel = ViewModelProvider(this).get(
@@ -30,6 +35,7 @@ class LoginRegisterFragment : Fragment() {
                     .navigate(R.id.action_loginRegisterFragment_to_loggedInFragment)
             }
         })
+
     }
 
     override fun onCreateView(
@@ -42,6 +48,7 @@ class LoginRegisterFragment : Fragment() {
         passwordEditText = view.findViewById(R.id.fragment_loginregister_password)
         loginButton = view.findViewById(R.id.fragment_loginregister_login)
         registerButton = view.findViewById(R.id.fragment_loginregister_register)
+
 
         loginButton?.setOnClickListener(View.OnClickListener {
             val email = emailEditText?.getText().toString()

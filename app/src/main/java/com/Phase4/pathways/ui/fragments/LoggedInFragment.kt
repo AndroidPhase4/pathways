@@ -59,7 +59,6 @@ class LoggedInFragment : Fragment() {
         dataScientistBtn = view.findViewById(R.id.DataScientistBtn)
         cyberSecurityBtn = view.findViewById(R.id.CyberSecurityBtn)
 
-        techNewsBtn = view.findViewById(R.id.technewsBtn)
 
         logOutButton?.setOnClickListener(View.OnClickListener { loggedInViewModel!!.logOut() })
 
@@ -83,11 +82,6 @@ class LoggedInFragment : Fragment() {
                 requireView()
             ).navigate(R.id.action_loggedInFragment_to_fragment_cyber_security_details)
         })
-//        techNewsBtn?.setOnClickListener(View.OnClickListener {
-//            Navigation.findNavController(
-//                requireView()
-//            ).navigate(R.id.action_loggedInFragment_to_techNewsFragment)
-//        })
 
         return view
     }

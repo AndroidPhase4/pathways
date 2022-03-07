@@ -93,17 +93,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/AndroidDeveloperBtn" />
 
-    <TextView
-        android:id="@+id/fragment_loggedin_loggedInUser"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/fragment_loggedin_logOut"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.974"
-        tools:layout_editor_absoluteX="-142dp" />
-
     <Button
         android:id="@+id/fragment_loggedin_logOut"
         android:layout_width="wrap_content"
@@ -116,16 +105,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/technewsBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tech News"
-        app:layout_constraintEnd_toStartOf="@+id/fragment_loggedin_logOut"
-        app:layout_constraintHorizontal_bias="0.476"
-        android:layout_marginBottom="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="679dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
