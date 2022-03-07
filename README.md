@@ -47,6 +47,9 @@ List the ready features here:
 - knajar21
 - zippotle
 
+## USER DOCUMENTATION 
+**( [User Doc](https://androidphase4.github.io/pathways/))**
+
 ## License
 
 The MIT License (MIT)
