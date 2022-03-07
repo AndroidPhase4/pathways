@@ -13,7 +13,4 @@
         android:title="Search News"
         android:icon="@drawable/ic_all_news" />
 
-<!--    <item android:id="@+id/searchNewsFragment"-->
-<!--        android:title="Search News"-->
-<!--        android:icon="@drawable/ic_all_news" />-->
 </menu>

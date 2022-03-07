@@ -21,7 +21,6 @@ class LoggedInFragment : Fragment() {
     private var dataScientistBtn: Button? = null
     private var cyberSecurityBtn: Button? = null
     private var loggedInViewModel: LoggedInViewModel? = null
-    private var techNewsBtn: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
