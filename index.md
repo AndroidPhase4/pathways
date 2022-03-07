@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/AndroidPhase4/pathways/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Welcome to Pathways
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Pursue you tech career today!
 
-### Markdown
+<a href="https://i.imgur.com/mYxLvC4.png"><img src="https://i.imgur.com/mYxLvC4.png" title="source: imgur.com" /></a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## What You Need
+- An Android phone
+- Email Address
+- Wi-fi Internet connection
+- Curiosity
 
-```markdown
-Syntax highlighted code block
+## Steps
+1. Download Pathways from the gogole play store
+2. create an account
+3. Choose a tech path
+4. search through jobs recent news and educational programs
+5. Save infromation to your account for future reference
 
-# Header 1
-## Header 2
-### Header 3
+<a href="https://i.imgur.com/2IV19hs.png"><img src="https://i.imgur.com/2IV19hs.png" title="source: imgur.com" /></a>
 
-- Bulleted
-- List
+## What can you do in Pathways
+- You can create an account by signing up using a **email address** or **Gmail account**
+- Gather information on top educational courses and bootcamps that serve your chosen path
+- View Articles in Webview browser
+- Store your favorite jobs, Tech news articles to revisit later
 
-1. Numbered
-2. List
+## Navigation
+- Bottom Navigation offers the user four options
+- Fetch recent technews
+- saved articles/jobs
+- search feature
+- Account logout
 
-**Bold** and _Italic_ and `Code` text
+### Favorite Tech Articles
+- Search for Tech news
+- Tap on selected article
+- Tap Floating Heart Action button to **favorite** an article
+- **Swipe** left to delete article
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+# Learn More
+Download The Pathways application today on The Google playstore and get Started
+**( [Google PlayStore](url))**
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AndroidPhase4/pathways/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
