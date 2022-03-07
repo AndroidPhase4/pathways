@@ -1,14 +1,14 @@
 package com.Phase4.pathways.ui.fragments
 
-import com.Phase4.pathways.R
-import com.Phase4.pathways.ui.NewsActivity
-import com.Phase4.pathways.ui.NewsViewModel
-
 import android.os.Bundle
 import android.view.View
+import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
+import com.Phase4.pathways.R
+import com.Phase4.pathways.ui.NewsActivity
+import com.Phase4.pathways.ui.NewsViewModel
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_article.*
 
@@ -23,7 +23,8 @@ class ArticleFragment : Fragment(R.layout.fragment_article) {
         val article = args.article
         webView.apply {
             webViewClient = WebViewClient()
-            loadUrl(article.url!!)
+//            article.url?.let { loadUrl(it) }
+            loadUrl(article.url.toString())
         }
 
         fab.setOnClickListener {

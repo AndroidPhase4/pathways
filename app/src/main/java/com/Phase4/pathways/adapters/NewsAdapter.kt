@@ -6,10 +6,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.Phase4.pathways.Models.Article
+import com.Phase4.pathways.models.Article
 import com.Phase4.pathways.R
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.item_article_preview.view.*
+
 
 class NewsAdapter : RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
 
@@ -25,13 +26,12 @@ class NewsAdapter : RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
         }
     }
 
-    // tool that takes two list to compare them
     val differ = AsyncListDiffer(this, differCallback)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArticleViewHolder {
         return ArticleViewHolder(
             LayoutInflater.from(parent.context).inflate(
-             R.layout.item_article_preview,
+                R.layout.item_article_preview,
                 parent,
                 false
             )
@@ -42,6 +42,8 @@ class NewsAdapter : RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
         return differ.currentList.size
     }
 
+    private var onItemClickListener: ((Article) -> Unit)? = null
+
     override fun onBindViewHolder(holder: ArticleViewHolder, position: Int) {
         val article = differ.currentList[position]
         holder.itemView.apply {
@@ -50,15 +52,14 @@ class NewsAdapter : RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
             tvTitle.text = article.title
             tvDescription.text = article.description
             tvPublishedAt.text = article.publishedAt
+
             setOnClickListener {
-                onItemCLickListener?.let { it(article) }
+                onItemClickListener?.let { it(article) }
             }
         }
     }
 
-    private var onItemCLickListener: ((Article) -> Unit)? = null
-
     fun setOnItemClickListener(listener: (Article) -> Unit) {
-        onItemCLickListener = listener
+        onItemClickListener = listener
     }
 }

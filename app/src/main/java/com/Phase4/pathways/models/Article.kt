@@ -1,4 +1,4 @@
-package com.Phase4.pathways.Models
+package com.Phase4.pathways.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

@@ -1,6 +1,6 @@
 package com.Phase4.pathways.api
 
-import com.Phase4.pathways.Models.NewsResponse
+import com.Phase4.pathways.models.NewsResponse
 import com.Phase4.pathways.util.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET

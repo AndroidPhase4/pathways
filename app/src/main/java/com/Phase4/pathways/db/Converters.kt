@@ -1,7 +1,7 @@
 package com.Phase4.pathways.db
 
 import androidx.room.TypeConverter
-import com.Phase4.pathways.Models.Source
+import com.Phase4.pathways.models.Source
 
 class Converters {
 

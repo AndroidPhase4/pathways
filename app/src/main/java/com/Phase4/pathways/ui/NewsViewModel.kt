@@ -1,15 +1,10 @@
 package com.Phase4.pathways.ui
 
-import android.app.Application
-import android.content.Context
-import android.net.ConnectivityManager
-import android.os.Build
-import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.Phase4.pathways.Models.Article
-import com.Phase4.pathways.Models.NewsResponse
+import com.Phase4.pathways.models.Article
+import com.Phase4.pathways.models.NewsResponse
 import com.Phase4.pathways.repository.NewsRepository
 import com.Phase4.pathways.util.Resource
 import kotlinx.coroutines.launch

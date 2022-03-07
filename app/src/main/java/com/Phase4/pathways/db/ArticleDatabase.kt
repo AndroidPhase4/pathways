@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.Phase4.pathways.Models.Article
+import com.Phase4.pathways.models.Article
 
 
 @Database(

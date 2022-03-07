@@ -18,9 +18,9 @@ import com.Phase4.pathways.ui.NewsViewModel
 import com.Phase4.pathways.util.Constants
 import com.Phase4.pathways.util.Constants.Companion.SEARCH_NEWS_TIME_DELAY
 import com.Phase4.pathways.util.Resource
-import kotlinx.android.synthetic.main.fragment_breaking_news.*
 import kotlinx.android.synthetic.main.fragment_search_news.*
 import kotlinx.android.synthetic.main.fragment_search_news.paginationProgressBar
+import kotlinx.android.synthetic.main.item_error_message.*
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay
@@ -63,20 +63,22 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
         viewModel.searchNews.observe(viewLifecycleOwner, Observer { response ->
             when(response) {
                 is Resource.Success -> {
-                    hideProgressbar()
+                    hideProgressBar()
+                    hideErrorMessage()
                     response.data?.let { newsResponse ->
                         newsAdapter.differ.submitList(newsResponse.articles.toList())
                         val totalPages = newsResponse.totalResults / Constants.QUERY_PAGE_SIZE + 2
                         isLastPage = viewModel.searchNewsPage == totalPages
                         if(isLastPage) {
-                            rvBreakingNews.setPadding(0,0,0,0)
+                            rvSearchNews.setPadding(0, 0, 0, 0)
                         }
                     }
                 }
                 is Resource.Error -> {
-                    hideProgressbar()
+                    hideProgressBar()
                     response.message?.let { message ->
                         Toast.makeText(activity, "An error occured: $message", Toast.LENGTH_LONG).show()
+                        showErrorMessage(message)
                     }
                 }
                 is Resource.Loading -> {
@@ -84,22 +86,42 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
                 }
             }
         })
+
+        btnRetry.setOnClickListener {
+            if (etSearch.text.toString().isNotEmpty()) {
+                viewModel.searchNews(etSearch.text.toString())
+            } else {
+                hideErrorMessage()
+            }
+        }
     }
-    private fun hideProgressbar() {
+    private fun hideProgressBar() {
         paginationProgressBar.visibility = View.INVISIBLE
         isLoading = false
     }
+
     private fun showProgressBar() {
         paginationProgressBar.visibility = View.VISIBLE
         isLoading = true
     }
 
+    private fun hideErrorMessage() {
+        itemErrorMessage.visibility = View.INVISIBLE
+        isError = false
+    }
+
+    private fun showErrorMessage(message: String) {
+        itemErrorMessage.visibility = View.VISIBLE
+        tvErrorMessage.text = message
+        isError = true
+    }
+
+    var isError = false
     var isLoading = false
     var isLastPage = false
     var isScrolling = false
 
     val scrollListener = object : RecyclerView.OnScrollListener() {
-
         override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
             super.onScrolled(recyclerView, dx, dy)
 
@@ -108,11 +130,12 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
             val visibleItemCount = layoutManager.childCount
             val totalItemCount = layoutManager.itemCount
 
+            val isNoErrors = !isError
             val isNotLoadingAndNotLastPage = !isLoading && !isLastPage
             val isAtLastItem = firstVisibleItemPosition + visibleItemCount >= totalItemCount
             val isNotAtBeginning = firstVisibleItemPosition >= 0
             val isTotalMoreThanVisible = totalItemCount >= Constants.QUERY_PAGE_SIZE
-            val shouldPaginate = isNotLoadingAndNotLastPage && isAtLastItem && isNotAtBeginning &&
+            val shouldPaginate = isNoErrors && isNotLoadingAndNotLastPage && isAtLastItem && isNotAtBeginning &&
                     isTotalMoreThanVisible && isScrolling
             if(shouldPaginate) {
                 viewModel.searchNews(etSearch.text.toString())
@@ -123,7 +146,7 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
         override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
             super.onScrollStateChanged(recyclerView, newState)
             if(newState == AbsListView.OnScrollListener.SCROLL_STATE_TOUCH_SCROLL) {
-
+                isScrolling = true
             }
         }
     }

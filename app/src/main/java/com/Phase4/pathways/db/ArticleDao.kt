@@ -2,18 +2,17 @@ package com.Phase4.pathways.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.Phase4.pathways.Models.Article
-import android.database.Cursor
+import com.Phase4.pathways.models.Article
 
 @Dao
 interface ArticleDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun upsert(article: Article)
+    suspend fun upsert(article: Article) : Long
 
     @Query("SELECT * FROM articles")
     fun getAllArticles(): LiveData<List<Article>>
 
     @Delete
-    fun deleteArticle(article: Article)
+    suspend fun deleteArticle(article: Article)
 }

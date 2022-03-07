@@ -1,6 +1,6 @@
 package com.Phase4.pathways.repository
 
-import com.Phase4.pathways.Models.Article
+import com.Phase4.pathways.models.Article
 import com.Phase4.pathways.api.RetrofitInstance
 import com.Phase4.pathways.db.ArticleDatabase
 

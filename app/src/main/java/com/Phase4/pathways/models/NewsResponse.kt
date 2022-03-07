@@ -1,4 +1,4 @@
-package com.Phase4.pathways.Models
+package com.Phase4.pathways.models
 
 data class NewsResponse(
     val articles: MutableList<Article>,

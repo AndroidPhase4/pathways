@@ -103,7 +103,7 @@
         android:label="ArticleFragment" >
         <argument
             android:name="article"
-            app:argType="com.Phase4.pathways.Models.Article" />
+            app:argType="com.Phase4.pathways.models.Article" />
     </fragment>
     <fragment
         android:id="@+id/savedNewsFragment"
