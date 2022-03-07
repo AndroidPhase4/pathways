@@ -1,4 +1,4 @@
-package com.Phase4.pathways.views
+package com.Phase4.pathways.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater

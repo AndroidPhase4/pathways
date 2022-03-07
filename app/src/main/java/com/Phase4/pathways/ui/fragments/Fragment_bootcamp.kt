@@ -1,4 +1,4 @@
-package com.Phase4.pathways.views
+package com.Phase4.pathways.ui.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.Phase4.pathways.R
-import com.Phase4.pathways.model.Bootcamp
+import com.Phase4.pathways.models.Bootcamp
 import com.Phase4.pathways.model.BootcampAdapter
 
 

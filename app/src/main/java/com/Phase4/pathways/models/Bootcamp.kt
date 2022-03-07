@@ -1,4 +1,4 @@
-package com.Phase4.pathways.model
+package com.Phase4.pathways.models
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

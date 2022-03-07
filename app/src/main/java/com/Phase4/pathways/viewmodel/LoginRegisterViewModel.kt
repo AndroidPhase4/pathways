@@ -2,7 +2,7 @@ package com.Phase4.pathways.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
-import com.Phase4.pathways.model.AppRepository
+import com.Phase4.pathways.models.AppRepository
 import androidx.lifecycle.MutableLiveData
 import com.google.firebase.auth.FirebaseUser
 

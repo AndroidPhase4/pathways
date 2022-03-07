@@ -1,7 +1,7 @@
-package com.Phase4.pathways.data
+package com.Phase4.pathways.ui.fragments.data
 
 import com.Phase4.pathways.R
-import com.Phase4.pathways.model.Bootcamp
+import com.Phase4.pathways.models.Bootcamp
 
 class Datasource {
     fun loadBootcamps() : List<Bootcamp> {

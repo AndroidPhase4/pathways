@@ -1,4 +1,4 @@
-package com.Phase4.pathways.model;
+package com.Phase4.pathways.models;
 
 import android.app.Application;
 import android.widget.Toast;
