@@ -1,8 +1,6 @@
 
 # Welcome to Pathways
 
-## Pursue you tech career today!
-
 <a href="https://i.imgur.com/mYxLvC4.png"><img src="https://i.imgur.com/mYxLvC4.png" title="source: imgur.com" /></a>
 
 ## What You Need
