@@ -13,7 +13,6 @@
             android:id="@+id/action_loginRegisterFragment_to_loggedInFragment"
             app:destination="@id/loggedInFragment" />
     </fragment>
-
     <fragment
         android:id="@+id/loggedInFragment"
         android:name="com.Phase4.pathways.views.LoggedInFragment"
@@ -44,6 +43,9 @@
         <action
             android:id="@+id/action_fragment_web_developer_details_to_fragment_bootcamp"
             app:destination="@id/fragment_bootcamp" />
+        <action
+            android:id="@+id/action_fragment_web_developer_details_to_fragment_web_developer_resources"
+            app:destination="@id/fragment_web_developer_resources" />
     </fragment>
     <fragment
         android:id="@+id/fragment_android_developer_details"
@@ -76,6 +78,12 @@
         android:id="@+id/fragment_bootcamp"
         android:name="com.Phase4.pathways.views.Fragment_bootcamp"
         android:label="fragment_bootcamp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <fragment
+        android:id="@+id/fragment_web_developer_resources"
+        android:name="com.Phase4.pathways.views.Fragment_web_developer_resources"
+        android:label="fragment_web_developer_resources"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </navigation>
