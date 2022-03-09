@@ -35,6 +35,8 @@
             android:layout_below="@id/web_dev_resources_title"
             android:layout_marginTop="4dp"
             android:layout_toEndOf="@id/web_dev_resources_image"
+            android:autoLink="web"
+            android:linksClickable="true"
             android:text="This is the desc of the project" />
 
 

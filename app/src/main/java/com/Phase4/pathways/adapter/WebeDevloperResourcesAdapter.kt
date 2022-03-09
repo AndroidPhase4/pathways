@@ -12,9 +12,24 @@ class WebeDevloperResourcesAdapter (val webDeveloperResources: List<WebDeveloper
     RecyclerView.Adapter<WebDeveloperResourcesViewHolder>() {
 
 
-    private var titles = arrayOf("test title")
+    private var titles = arrayOf("Youtube", "Websites", "Apps")
 
-    private var description = arrayOf("test desc")
+
+
+    private var description = arrayOf(
+        "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA\n" +
+                "https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ\n" +
+                "https://www.youtube.com/channel/UC5DNytAJ6_FISueUfzZCVsw",
+        "https://www.freecodecamp.org\n" +
+                "https://www.codecademy.com\n" +
+                "https://www.w3schools.com\n" +
+                "https://www.coursera.org\n" +
+                "https://www.edx.org\n",
+        "https://play.google.com/store/apps/details?id=com.sololearn&hl=en_US&gl=US\n" +
+                "https://apps.apple.com/us/app/sololearn-learn-to-code/id1210079064\n" +
+                "https://play.google.com/store/apps/details?id=net.androidsquad.androidmaster&hl=en_US&gl=US\n" +
+                "https://play.google.com/store/apps/details?id=com.freeit.java&hl=en_US&gl=US\n" +
+                "https://apps.apple.com/us/app/programming-hub-learn-coding/id1049691226\n")
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WebDeveloperResourcesViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.web_dev_resources_list, parent, false)
