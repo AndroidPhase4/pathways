@@ -19,3 +19,7 @@ data class Article(
     val url: String?,
     val urlToImage: String?
 ) : Serializable
+
+
+// Serialization is the process of converting data used by an application
+// to a format that can be transferred over a network or stored in a database or a file.

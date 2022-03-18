@@ -8,21 +8,27 @@ import androidx.room.TypeConverters
 import com.Phase4.pathways.models.Article
 
 
+// list of Entities 1 table only
+// List default version 1
 @Database(
     entities = [Article::class],
     version = 1
 )
 
+
 @TypeConverters(Converters::class)
 abstract class ArticleDatabase : RoomDatabase() {
 
+    // Abstract function that returns itemDAO
     abstract fun getArticleDao(): ArticleDao
     
     companion object {
         @Volatile
         private var instance: ArticleDatabase? = null
+        // Synchronize only 1 instance of DB
         private val LOCK = Any()
 
+        // create instance of Database using invoke function
         operator fun invoke(context: Context) = instance ?: synchronized(LOCK) {
             instance ?: createDatabase(context).also { instance = it}
         }

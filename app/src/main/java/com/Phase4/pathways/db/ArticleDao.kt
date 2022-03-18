@@ -16,3 +16,7 @@ interface ArticleDao {
     @Delete
     suspend fun deleteArticle(article: Article)
 }
+
+// Interface defined functions on  how to access/write local database
+// onConflict if it already exist in database it will replace it in the DB
+// Upsert stands for insert and update

@@ -75,6 +75,8 @@ class NewsViewModel(
         return Resource.Error(response.message())
     }
 
+    // SAVEARTICLE takes the item that should run coroutine ViewModelScope.launch
+    // Function should pass itemRepository and call function insert to databasse
     fun saveArticle(article: Article) = viewModelScope.launch {
         newsRepository.upsert(article)
     }
