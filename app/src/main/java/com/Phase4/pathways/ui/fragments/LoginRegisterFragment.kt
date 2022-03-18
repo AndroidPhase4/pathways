@@ -35,7 +35,6 @@ class LoginRegisterFragment : Fragment() {
                     .navigate(R.id.action_loginRegisterFragment_to_loggedInFragment)
             }
         })
-
     }
 
     override fun onCreateView(

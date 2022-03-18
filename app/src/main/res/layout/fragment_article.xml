@@ -14,7 +14,7 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_favorite"
+        android:src="@drawable/ic_favorite_articles_24dp"
         app:fabSize="normal"
         android:layout_marginBottom="32dp"
         android:layout_marginEnd="32dp"
