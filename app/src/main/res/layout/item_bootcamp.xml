@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardBackgroundColor="#009688"
-    android:orientation="vertical"
     android:layout_marginTop="8dp"
-    android:padding="8dp">
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+    android:padding="8dp"
+    app:cardBackgroundColor="@color/purple_200">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        >
+        android:background="#9F65FB">
 
         <ImageView
             android:id="@+id/image_view_project_icon"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_margin="12dp"
-            android:src="@drawable/ic_launcher_background" />
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/app_academy" />
 
         <TextView
             android:id="@+id/text_view_project_title"
@@ -35,7 +39,8 @@
             android:layout_below="@id/text_view_project_title"
             android:layout_marginTop="4dp"
             android:layout_toEndOf="@id/image_view_project_icon"
-            android:text="This is the desc of the project" />
+            android:text="This is the desc of the project"
+            android:maxLines="6"/>
 
 
     </RelativeLayout>

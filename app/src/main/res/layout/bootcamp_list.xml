@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardBackgroundColor="#009688"
+    app:cardBackgroundColor="#05F1DB"
     android:orientation="vertical"
     android:layout_marginTop="8dp"
     android:padding="8dp">
@@ -18,7 +18,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_margin="12dp"
-            android:src="@drawable/ic_launcher_background" />
+            android:src="@drawable/app_academy" />
 
         <TextView
             android:id="@+id/bootcamp_title"

@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.Phase4.pathways.R
 import com.Phase4.pathways.models.Bootcamp
+import kotlinx.android.synthetic.main.item_bootcamp.view.*
 
 class BootcampAdapter (val bootcamp: List<Bootcamp>) : RecyclerView.Adapter<BootcampViewHolder>() {
 
@@ -56,6 +57,7 @@ class BootcampAdapter (val bootcamp: List<Bootcamp>) : RecyclerView.Adapter<Boot
                 "TechProEducation offers mentorship and 1:1 tutoring sessions to students needing extra support. Students should expect to commit 24 hours per week to their bootcamp program. No prior technical background is required to enroll in TechProEducation bootcamps. TechProEducation bootcamp students do receive career assistance, including a 6-month internship placement and job application preparation. Upon graduation, TechProEducation bootcamp students will receive a certificate of completion.\n",
 
     )
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BootcampViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.bootcamp_list, parent, false)
