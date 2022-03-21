@@ -22,7 +22,8 @@ class LoginRegisterFragment : Fragment() {
     private var loginButton: Button? = null
     private var registerButton: Button? = null
     private var loginRegisterViewModel: LoginRegisterViewModel? = null
-
+    private val text = "Welcome back: "
+    private val duration = Toast.LENGTH_SHORT
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,6 +32,7 @@ class LoginRegisterFragment : Fragment() {
         )
         loginRegisterViewModel!!.userLiveData.observe(this, { firebaseUser ->
             if (firebaseUser != null) {
+                Toast.makeText(context, text + firebaseUser.email, duration).show()
                 Navigation.findNavController(requireView())
                     .navigate(R.id.action_loginRegisterFragment_to_loggedInFragment)
             }

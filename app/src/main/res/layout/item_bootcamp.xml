@@ -6,6 +6,7 @@
     android:layout_marginTop="8dp"
     android:orientation="vertical"
     android:padding="8dp"
+    android:backgroundTint="@color/lightMist"
     >
 
     <RelativeLayout
@@ -29,7 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_alignTop="@id/ivBootcampImage"
             android:layout_toEndOf="@id/ivBootcampImage"
-            android:text="The App Title" />
+            android:text="The App Title"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/tvBootcampDescription"

@@ -11,7 +11,8 @@
 
     <item android:id="@+id/savedNewsFragment"
         android:title="Saved"
-        android:icon="@drawable/ic_favorite_articles_24dp" />
+        android:icon="@drawable/ic_favorite_articles_24dp"
+        />
 
     <item android:id="@+id/searchNewsFragment"
         android:title="Search"

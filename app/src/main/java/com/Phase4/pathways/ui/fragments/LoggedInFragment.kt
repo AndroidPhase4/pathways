@@ -11,7 +11,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.viewModelScope
 import androidx.navigation.Navigation
+import com.google.android.material.snackbar.Snackbar
+import kotlinx.coroutines.NonDisposableHandle.parent
 
 class LoggedInFragment : Fragment() {
     private var loggedInUserTextView: TextView? = null
@@ -31,6 +34,7 @@ class LoggedInFragment : Fragment() {
                 if (firebaseUser != null) {
                     loggedInUserTextView!!.text = "Logged In User: " + firebaseUser.email
                     logOutButton!!.isEnabled = true
+
                 } else {
                     logOutButton!!.isEnabled = false
                 }

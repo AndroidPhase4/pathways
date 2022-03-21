@@ -7,4 +7,20 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="mist">#C9FFEE</color>
+    <color name="lightMist">#F1FFFB</color>
+
+    <color name="web_dev_yellow">#FBF1E1</color>
+    <color name="android_dev_green">#E2FFEF</color>
+    <color name="data_scientist_blue">#E3EBFF</color>
+    <color name="cyber_security_red">#FBDFDF</color>
+
+    <color name="bottom_nav_background">#D8D8D8</color>
+    <color name="favorite_red">#750202</color>
+    <color name="tech_news_blue">#0040FF</color>
+    <color name="home_background_white">#ECECEC</color>
+
+    <color name="articles_background">#EFDBFD</color>
+    <color name="articles">#FCF7FF</color>
+
 </resources>
