@@ -10,7 +10,7 @@ import androidx.navigation.Navigation
 import com.Phase4.pathways.R
 
 
-    class fragment_android_developer_details : Fragment() {
+    class AndroidDeveloperDetailsFragment : Fragment() {
       
         private var bootcampBtn: Button? = null
 

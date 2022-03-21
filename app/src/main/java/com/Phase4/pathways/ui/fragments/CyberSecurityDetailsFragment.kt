@@ -9,21 +9,21 @@ import android.widget.Button
 import androidx.navigation.Navigation
 import com.Phase4.pathways.R
 
-class fragment_data_scientist_details : Fragment() {
+class CyberSecurityDetailsFragment : Fragment() {
     private var bootcampBtn: Button? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_data_scientist_details, container, false)
+        val view = inflater.inflate(R.layout.fragment_cyber_security_details, container, false)
 
         bootcampBtn = view.findViewById(R.id.BootcampBtn)
 
         bootcampBtn?.setOnClickListener(View.OnClickListener {
             Navigation.findNavController(
                 requireView()
-            ).navigate(R.id.action_fragment_data_scientist_details_to_fragment_bootcamp)
+            ).navigate(R.id.action_fragment_cyber_security_details_to_fragment_bootcamp)
         })
         return view
     }

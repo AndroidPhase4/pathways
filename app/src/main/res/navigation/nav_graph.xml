@@ -45,7 +45,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragment_web_developer_details"
-        android:name="com.Phase4.pathways.ui.fragments.fragment_web_developer_details"
+        android:name="com.Phase4.pathways.ui.fragments.WebDeveloperDetailsFragment"
         android:label="fragment_pathways_details_fragment"
         tools:layout="@layout/fragment_web_developer_details">
         <action
@@ -54,7 +54,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragment_android_developer_details"
-        android:name="com.Phase4.pathways.ui.fragments.fragment_android_developer_details"
+        android:name="com.Phase4.pathways.ui.fragments.AndroidDeveloperDetailsFragment"
         android:label="fragment_android_developer_details"
         tools:layout="@layout/fragment_android_developer_details">
         <action
@@ -63,7 +63,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragment_data_scientist_details"
-        android:name="com.Phase4.pathways.ui.fragments.fragment_data_scientist_details"
+        android:name="com.Phase4.pathways.ui.fragments.DataScienceDetailsFragment"
         android:label="fragment_data_scientist_details"
         tools:layout="@layout/fragment_data_scientist_details">
         <action
@@ -72,7 +72,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragment_cyber_security_details"
-        android:name="com.Phase4.pathways.ui.fragments.fragment_cyber_security_details"
+        android:name="com.Phase4.pathways.ui.fragments.CyberSecurityDetailsFragment"
         android:label="fragment_cyber_security_details"
         tools:layout="@layout/fragment_cyber_security_details">
         <action
@@ -81,7 +81,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragment_bootcamp"
-        android:name="com.Phase4.pathways.ui.fragments.Fragment_bootcamp"
+        android:name="com.Phase4.pathways.ui.fragments.BootcampFragment"
         android:label="fragment_bootcamp"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

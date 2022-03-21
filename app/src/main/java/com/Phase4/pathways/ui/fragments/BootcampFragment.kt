@@ -8,13 +8,13 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.Phase4.pathways.R
-import com.Phase4.pathways.models.Bootcamp
 import com.Phase4.pathways.model.BootcampAdapter
+import com.Phase4.pathways.data.Datasource
 
 
-class Fragment_bootcamp : Fragment() {
+class BootcampFragment : Fragment() {
+
     private lateinit var adapter: BootcampAdapter
-    private val title: List<Bootcamp> = ArrayList()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -27,10 +27,12 @@ class Fragment_bootcamp : Fragment() {
     }
 
     private fun initRecyclerView(view: View) {
+
+        val data = Datasource().loadBootcamps()
+
         val recyclerView = view.findViewById<RecyclerView>(R.id.rvBootcamps)
         recyclerView.layoutManager = LinearLayoutManager(activity)
-        adapter = BootcampAdapter(title)
+        adapter = BootcampAdapter(this,data)
         recyclerView.adapter = adapter
     }
-
 }

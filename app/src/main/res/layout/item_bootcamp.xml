@@ -4,18 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="8dp"
-    android:background="@color/purple_200"
     android:orientation="vertical"
     android:padding="8dp"
-    app:cardBackgroundColor="@color/purple_200">
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#9F65FB">
+        >
 
         <ImageView
-            android:id="@+id/image_view_project_icon"
+            android:id="@+id/ivBootcampImage"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginStart="12dp"
@@ -25,22 +24,22 @@
             android:src="@drawable/app_academy" />
 
         <TextView
-            android:id="@+id/text_view_project_title"
+            android:id="@+id/tvBootcampTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/image_view_project_icon"
-            android:layout_toEndOf="@id/image_view_project_icon"
+            android:layout_alignTop="@id/ivBootcampImage"
+            android:layout_toEndOf="@id/ivBootcampImage"
             android:text="The App Title" />
 
         <TextView
-            android:id="@+id/text_view_project_desc"
+            android:id="@+id/tvBootcampDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/text_view_project_title"
+            android:layout_below="@id/tvBootcampTitle"
             android:layout_marginTop="4dp"
-            android:layout_toEndOf="@id/image_view_project_icon"
+            android:layout_toEndOf="@id/ivBootcampImage"
             android:text="This is the desc of the project"
-            android:maxLines="6"/>
+            android:maxLines="4"/>
 
 
     </RelativeLayout>
