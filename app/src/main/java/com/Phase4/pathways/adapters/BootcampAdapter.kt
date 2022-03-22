@@ -2,14 +2,9 @@ package com.Phase4.pathways.model
 
 import android.content.Intent
 import android.net.Uri
-import android.os.Bundle
-import android.text.method.LinkMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.webkit.WebSettings
-import android.webkit.WebView
-import android.webkit.WebViewClient
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -32,7 +27,6 @@ class BootcampAdapter(
         return bootcamps.size
     }
 
-    // involves populating data into item through the holder
     override fun onBindViewHolder(holder: BootcampViewHolder, position: Int) {
         val bootcamp = bootcamps[position]
 
