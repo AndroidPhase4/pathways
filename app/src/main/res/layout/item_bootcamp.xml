@@ -43,7 +43,6 @@
             android:text="This is the desc of the project"
             android:maxLines="4"/>
 
-
     </RelativeLayout>
 
 

@@ -84,7 +84,11 @@
         android:name="com.Phase4.pathways.ui.fragments.BootcampFragment"
         android:label="fragment_bootcamp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" >
+        <action
+            android:id="@+id/action_fragment_bootcamp_to_bootcampDetailFragment"
+            app:destination="@id/bootcampDetailFragment" />
+    </fragment>
     <fragment
         android:id="@+id/breakingNewsFragment"
         android:name="com.Phase4.pathways.ui.fragments.BreakingNewsFragment"
@@ -129,4 +133,8 @@
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
+    <fragment
+        android:id="@+id/bootcampDetailFragment"
+        android:name="com.Phase4.pathways.ui.fragments.BootcampDetailFragment"
+        android:label="BootcampDetailFragment" />
 </navigation>

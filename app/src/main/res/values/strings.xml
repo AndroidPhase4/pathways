@@ -18,33 +18,42 @@
 
     <string name="bootcamp1">App Academy</string>
     <string name="bootcamp1Desc">"Since App Academy started in 2012, we've consistently been regarded as one of the best coding bootCamps in the world by students and employers. It's no wonder we've placed over 4,500 people in jobs at over 2,000 companies!"</string>
+    <string name="bootcamp1Url">https://www.appacademy.io</string>
 
     <string name="bootcamp2">Fullstack Academy</string>
     <string name="bootcamp2Desc">"An Advanced JavaScript School in NYC With Exceptional Career Outcomes. Become a software engineer this year. Get placed at a top tech company upon graduation"</string>
+    <string name="bootcamp2Url">https://www.fullstackacademy.com</string>
 
     <string name="bootcamp3">Hack Reactor</string>
     <string name="bootcamp3Desc">"After our 12-week, live online coding bootcamp, you'll be what you want to be: a software engineer, fully capable of tackling unique and unfamiliar problems and building complex applications on the job."</string>
+    <string name="bootcamp3Url">https://www.hackreactor.com</string>
 
     <string name="bootcamp4">Flatiron School</string>
     <string name="bootcamp4Desc">"Our grads have gotten jobs in software engineering, data science, cyber security, and UX/UI design — your journey starts here. Choose your career path and learning pace today with one of our immersive courses."</string>
+    <string name="bootcamp4Url">https://flatironschool.com</string>
 
     <string name="bootcamp5">Kenzie Academy</string>
     <string name="bootcamp5Desc">"Kenzie Academy is collaborating with Amazon Technical Academy to launch this online Software Engineering Program with Backend Java Specialization. Graduates of the program will qualify for entry-level software engineering roles at Amazon and similar roles at other enterprise and technology employers."</string>
+    <string name="bootcamp5Url">https://kenzie.snhu.edu</string>
 
     <string name="bootcamp6">General Assembly</string>
     <string name="bootcamp6Desc">"Be In-Demand, learn a new skill. Code, UX, Data, Marketing and Product. Part-Time and Full-Time. Award-Winning Curriculum. Financing Opportunities. Bring Ideas to Life. Advance Your Career. Learn Cutting Edge Skills. Expert-Led Training"</string>
+    <string name="bootcamp6Url">https://generalassemb.ly</string>
 
     <string name="bootcamp7">Coding Dojo</string>
     <string name="bootcamp7Desc">"Interested in starting your new career in tech? Learn to code at one of the top coding bootCamps. Build your first website and app in a matter of weeks."</string>
+    <string name="bootcamp7Url">https://www.codingdojo.com</string>
 
     <string name="bootcamp8">BrainStation</string>
     <string name="bootcamp8Desc">"Learn in-demand skills and launch a new career as a Web Developer with this intensive web development bootcamp."</string>
+    <string name="bootcamp8Url">https://brainstation.io</string>
 
     <string name="bootcamp9">FreeCodeCamp</string>
     <string name="bootcamp9Desc">"Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public. We also have thousands of freeCodeCamp study groups around the world."</string>
+    <string name="bootcamp9Url">https://www.freecodecamp.org</string>
 
     <string name="bootcamp10">Columbia Bootcamp</string>
     <string name="bootcamp10Desc">"Web development is a high-growth career track, and Columbia Engineering Coding Boot Camp teaches you the specialized skills for full stack web development."</string>
-
+    <string name="bootcamp10Url">https://bootcamp.cvn.columbia.edu</string>
 
 </resources>
