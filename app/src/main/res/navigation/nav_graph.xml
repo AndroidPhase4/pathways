@@ -8,15 +8,16 @@
     <fragment
         android:id="@+id/loginRegisterFragment"
         android:name="com.Phase4.pathways.views.LoginRegisterFragment"
-        android:label="LoginRegisterFragment" >
+        android:label="LoginRegisterFragment">
         <action
             android:id="@+id/action_loginRegisterFragment_to_loggedInFragment"
             app:destination="@id/loggedInFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/loggedInFragment"
         android:name="com.Phase4.pathways.views.LoggedInFragment"
-        android:label="LoggedInFragment" >
+        android:label="LoggedInFragment">
         <action
             android:id="@+id/action_loggedInFragment_to_loginRegisterFragment"
             app:destination="@id/loginRegisterFragment"
@@ -28,15 +29,88 @@
         <action
             android:id="@+id/action_loggedInFragment_to_fragment_android_developer_details"
             app:destination="@id/fragment_android_developer_details" />
+        <action
+            android:id="@+id/action_loggedInFragment_to_fragment_cyber_security_details"
+            app:destination="@id/fragment_cyber_security_details" />
+        <action
+            android:id="@+id/action_loggedInFragment_to_fragment_data_scientist_details"
+            app:destination="@id/fragment_data_scientist_details" />
     </fragment>
     <fragment
         android:id="@+id/fragment_web_developer_details"
         android:name="com.Phase4.pathways.views.fragment_web_developer_details"
         android:label="fragment_pathways_details_fragment"
-        tools:layout="@layout/fragment_web_developer_details" />
+        tools:layout="@layout/fragment_web_developer_details">
+        <action
+            android:id="@+id/action_fragment_web_developer_details_to_fragment_bootcamp"
+            app:destination="@id/fragment_bootcamp" />
+
+        <action
+            android:id="@+id/action_fragment_web_developer_details_to_fragmentWebDevResources"
+            app:destination="@id/fragmentWebDevResources" />
+
+    </fragment>
     <fragment
         android:id="@+id/fragment_android_developer_details"
-        android:name="com.Phase4.pathways.views.Fragment_android_developer_details"
+        android:name="com.Phase4.pathways.views.fragment_android_developer_details"
         android:label="fragment_android_developer_details"
-        tools:layout="@layout/fragment_android_developer_details" />
+        tools:layout="@layout/fragment_android_developer_details">
+        <action
+            android:id="@+id/action_fragment_android_developer_details_to_fragment_bootcamp"
+            app:destination="@id/fragment_bootcamp" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_data_scientist_details"
+        android:name="com.Phase4.pathways.views.fragment_data_scientist_details"
+        android:label="fragment_data_scientist_details"
+        tools:layout="@layout/fragment_data_scientist_details">
+        <action
+            android:id="@+id/action_fragment_data_scientist_details_to_fragment_bootcamp"
+            app:destination="@id/fragment_bootcamp" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_cyber_security_details"
+        android:name="com.Phase4.pathways.views.fragment_cyber_security_details"
+        android:label="fragment_cyber_security_details"
+        tools:layout="@layout/fragment_cyber_security_details">
+        <action
+            android:id="@+id/action_fragment_cyber_security_details_to_fragment_bootcamp"
+            app:destination="@id/fragment_bootcamp" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_bootcamp"
+        android:name="com.Phase4.pathways.views.Fragment_bootcamp"
+        android:label="fragment_bootcamp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <fragment
+        android:id="@+id/fragmentWebDevResources"
+        android:name="com.Phase4.pathways.views.FragmentWebDevResources"
+        android:label="fragment_web_dev_resources_fragment"
+        tools:layout="@layout/fragment_web_dev_resources_fragment" >
+        <action
+            android:id="@+id/action_fragmentWebDevResources_to_udacity_Web_Dev_Res"
+            app:destination="@id/udacity_Web_Dev_Res" />
+        <action
+            android:id="@+id/action_fragmentWebDevResources_to_khanAcademy_web_dev_resources"
+            app:destination="@id/khanAcademy_web_dev_resources" />
+        <action
+            android:id="@+id/action_fragmentWebDevResources_to_codeCademy_web_dev_res"
+            app:destination="@id/codeCademy_web_dev_res" />
+    </fragment>
+    <fragment
+        android:id="@+id/udacity_Web_Dev_Res"
+        android:name="com.Phase4.pathways.views.Udacity_Web_Dev_Res"
+        android:label="udacity__web__dev__res_fragment"
+        tools:layout="@layout/udacity__web__dev__res_fragment" />
+    <fragment
+        android:id="@+id/khanAcademy_web_dev_resources"
+        android:name="com.Phase4.pathways.views.KhanAcademy_web_dev_resources"
+        android:label="khan_academy_web_dev_resources_fragment"
+        tools:layout="@layout/khan_academy_web_dev_resources_fragment" />
+    <fragment
+        android:id="@+id/codeCademy_web_dev_res"
+        android:name="com.Phase4.pathways.views.codeCademy_web_dev_res"
+        android:label="code_cademy_web_dev_res_fragment"
+        tools:layout="@layout/code_cademy_web_dev_res_fragment" />
 </navigation>

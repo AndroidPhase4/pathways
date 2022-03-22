@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#009688"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/bootcamp_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="12dp"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/bootcamp_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/bootcamp_image"
+            android:layout_toEndOf="@id/bootcamp_image"
+            android:text="The App Title" />
+
+        <TextView
+            android:id="@+id/bootcamp_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bootcamp_title"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@id/bootcamp_image"
+            android:text="This is the desc of the project" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
