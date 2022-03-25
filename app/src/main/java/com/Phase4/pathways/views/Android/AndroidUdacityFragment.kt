@@ -1,4 +1,4 @@
-package com.Phase4.pathways.views
+package com.Phase4.pathways.views.Android
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -7,26 +7,26 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.Phase4.pathways.R
-import com.Phase4.pathways.viewmodel.UdacityWebDevResViewModel
+import com.Phase4.pathways.viewmodel.Android.AndroidUdacityViewModel
 
-class Udacity_Web_Dev_Res : Fragment() {
+class AndroidUdacityFragment : Fragment() {
 
     companion object {
-        fun newInstance() = Udacity_Web_Dev_Res()
+        fun newInstance() = AndroidUdacityFragment()
     }
 
-    private lateinit var viewModel: UdacityWebDevResViewModel
+    private lateinit var viewModel: AndroidUdacityViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.udacity__web__dev__res_fragment, container, false)
+        return inflater.inflate(R.layout.android_udacity_fragment, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(UdacityWebDevResViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(AndroidUdacityViewModel::class.java)
         // TODO: Use the ViewModel
     }
 

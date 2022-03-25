@@ -1,4 +1,4 @@
-package com.Phase4.pathways.views
+package com.Phase4.pathways.views.WebDev
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -12,7 +12,7 @@ import androidx.navigation.Navigation
 import com.Phase4.pathways.R
 import com.Phase4.pathways.databinding.FragmentWebDevResourcesFragmentBinding
 import com.Phase4.pathways.viewmodel.FragmentWebDevResourcesViewModel
-//This is the Web Developer Resouces Page
+//This is the Web Developer Resources Page
 //Listed the resources for:
 //Udacity
 //Khan Academy

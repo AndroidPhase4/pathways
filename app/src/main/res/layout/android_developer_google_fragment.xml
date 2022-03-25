@@ -3,7 +3,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-    tools:context=".views.WebDev.codeCademy_web_dev_res">
+    tools:context=".views.Android.AndroidDeveloperGoogleFragment">
 
 
     <TextView
@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
-        android:text="Web Developer Resource III"
+        android:text="Android Developer Resource I"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
         android:id="@+id/resrouce3Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Codecademy"
+        android:text="Android.Developer (Google)"
         android:textColor="@color/teal_700"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -60,7 +60,7 @@ In this track you will\n- Learn HTML\n- Styling a Website\n- GettingStarted with
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
-        android:text="Go to Codecademy"
+        android:text="Go to Android.Developer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

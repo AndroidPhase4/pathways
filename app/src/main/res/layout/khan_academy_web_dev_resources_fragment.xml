@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.KhanAcademy_web_dev_resources">
+    tools:context=".views.WebDev.KhanAcademy_web_dev_resources">
 
     <TextView
         android:id="@+id/resourceTitle"

@@ -1,4 +1,4 @@
-package com.Phase4.pathways.views
+package com.Phase4.pathways.views.Android
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -7,26 +7,26 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.Phase4.pathways.R
-import com.Phase4.pathways.viewmodel.CodeCademyWebDevResViewModel
+import com.Phase4.pathways.viewmodel.Android.AndroidDeveloperGoogleViewModel
 
-class codeCademy_web_dev_res : Fragment() {
+class AndroidDeveloperGoogleFragment : Fragment() {
 
     companion object {
-        fun newInstance() = codeCademy_web_dev_res()
+        fun newInstance() = AndroidDeveloperGoogleFragment()
     }
 
-    private lateinit var viewModel: CodeCademyWebDevResViewModel
+    private lateinit var viewModel: AndroidDeveloperGoogleViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.code_cademy_web_dev_res_fragment, container, false)
+        return inflater.inflate(R.layout.android_developer_google_fragment, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(CodeCademyWebDevResViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(AndroidDeveloperGoogleViewModel::class.java)
         // TODO: Use the ViewModel
     }
 

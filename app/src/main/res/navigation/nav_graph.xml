@@ -58,6 +58,9 @@
         <action
             android:id="@+id/action_fragment_android_developer_details_to_fragment_bootcamp"
             app:destination="@id/fragment_bootcamp" />
+        <action
+            android:id="@+id/action_fragment_android_developer_details_to_fragmentAndroidResources"
+            app:destination="@id/fragmentAndroidResources" />
     </fragment>
     <fragment
         android:id="@+id/fragment_data_scientist_details"
@@ -85,7 +88,7 @@
         android:layout_height="match_parent" />
     <fragment
         android:id="@+id/fragmentWebDevResources"
-        android:name="com.Phase4.pathways.views.FragmentWebDevResources"
+        android:name="com.Phase4.pathways.views.WebDev.FragmentWebDevResources"
         android:label="fragment_web_dev_resources_fragment"
         tools:layout="@layout/fragment_web_dev_resources_fragment" >
         <action
@@ -100,17 +103,47 @@
     </fragment>
     <fragment
         android:id="@+id/udacity_Web_Dev_Res"
-        android:name="com.Phase4.pathways.views.Udacity_Web_Dev_Res"
+        android:name="com.Phase4.pathways.views.WebDev.Udacity_Web_Dev_Res"
         android:label="udacity__web__dev__res_fragment"
         tools:layout="@layout/udacity__web__dev__res_fragment" />
     <fragment
         android:id="@+id/khanAcademy_web_dev_resources"
-        android:name="com.Phase4.pathways.views.KhanAcademy_web_dev_resources"
+        android:name="com.Phase4.pathways.views.WebDev.KhanAcademy_web_dev_resources"
         android:label="khan_academy_web_dev_resources_fragment"
         tools:layout="@layout/khan_academy_web_dev_resources_fragment" />
     <fragment
         android:id="@+id/codeCademy_web_dev_res"
-        android:name="com.Phase4.pathways.views.codeCademy_web_dev_res"
+        android:name="com.Phase4.pathways.views.WebDev.codeCademy_web_dev_res"
         android:label="code_cademy_web_dev_res_fragment"
         tools:layout="@layout/code_cademy_web_dev_res_fragment" />
+    <fragment
+        android:id="@+id/fragmentAndroidResources"
+        android:name="com.Phase4.pathways.views.Android.FragmentAndroidResources"
+        android:label="fragment_android_resources_fragment"
+        tools:layout="@layout/fragment_android_resources_fragment" >
+        <action
+            android:id="@+id/action_fragmentAndroidResources_to_androidDeveloperGoogleFragment"
+            app:destination="@id/androidDeveloperGoogleFragment" />
+        <action
+            android:id="@+id/action_fragmentAndroidResources_to_androidUdacityFragment"
+            app:destination="@id/androidUdacityFragment" />
+        <action
+            android:id="@+id/action_fragmentAndroidResources_to_androidCourseraFragment"
+            app:destination="@id/androidCourseraFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/androidCourseraFragment"
+        android:name="com.Phase4.pathways.views.Android.AndroidCourseraFragment"
+        android:label="android_coursera_fragment"
+        tools:layout="@layout/android_coursera_fragment" />
+    <fragment
+        android:id="@+id/androidDeveloperGoogleFragment"
+        android:name="com.Phase4.pathways.views.Android.AndroidDeveloperGoogleFragment"
+        android:label="android_developer_google_fragment"
+        tools:layout="@layout/android_developer_google_fragment" />
+    <fragment
+        android:id="@+id/androidUdacityFragment"
+        android:name="com.Phase4.pathways.views.Android.AndroidUdacityFragment"
+        android:label="android_udacity_fragment"
+        tools:layout="@layout/android_udacity_fragment" />
 </navigation>
