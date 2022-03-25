@@ -44,17 +44,19 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:maxLines="10"
+        android:maxLines="20"
 
-        android:text="Codecademy's Web Development Track includes JavaScript, Node.JS, SQL, Express.JS, React, TDD, and more.
-In this track you will\n- Learn HTML\n- Styling a Website\n- GettingStarted with JavaScript\n- Learn Command Line\n- Front-end and Back-end
-\n- SQL and Databases for Web Development\n- Building a Persistent API"
+        android:text="Learn from the makers of Android!!\n\n
+      'In this course, you’ll learn the basics of building Android apps with the Kotlin programming language. Along the way,
+        you'll develop a collection of apps to start your journey as an Android developer. This course will help prepare you for
+        the Associate Android Developer certification exam.'\n\nDeveloper.Android has many more courses you can take as you advance:\n- Build your first Android app in Java
+\n- Jetpack Compose\n- Accessibility\n- Kotlin Coroutines\n- Advanced Android Development\n And so much more!!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.348" />
+        app:layout_constraintVertical_bias="0.401" />
 
     <Button
         android:id="@+id/androidDevGoogleBtn"
@@ -66,8 +68,9 @@ In this track you will\n- Learn HTML\n- Styling a Website\n- GettingStarted with
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.67" />
+        app:layout_constraintVertical_bias="0.752" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

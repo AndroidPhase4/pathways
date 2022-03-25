@@ -37,24 +37,22 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.221" />
 
-        <TextView
-            android:id="@+id/resource3Description"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:maxLines="10"
+    <TextView
+        android:id="@+id/resource3Description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:maxLines="30"
 
-            android:text="Codecademy's Web Development Track includes JavaScript, Node.JS, SQL, Express.JS, React, TDD, and more.
-In this track you will\n- Learn HTML\n- Styling a Website\n- GettingStarted with JavaScript\n- Learn Command Line\n- Front-end and Back-end
-\n- SQL and Databases for Web Development\n- Building a Persistent API"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.348" />
+        android:text="'Data is valuable. With so much sensitive information online, companies need cybersecurity pros to protect it. This course is a great starting point for anyone interested in cybersecurity, but not sure where to start. Build your foundation by learning the fundamentals of one of the fastest-growing fields today.'\n\n'Learn the basic concepts needed to identify and protect yourself against common cyber threats and attacks. You’ll also gain an understanding of principles and policies, commonly used authentication/authorization techniques, and network security fundamentals.'\n\nCodecademy's Cybersecurity syllabus includes:\n- History and Cybersecurity Standards\n- Cyber Threats\n- Newtwork Security Basics\n- Securing Your Personal Devices\n- Case Studies and Looking Ahead\n\n 'Start learning about cybersecurity!' "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.458" />
 
     <Button
         android:id="@+id/codecademyCyberBtnWebUrl"
@@ -65,8 +63,9 @@ In this track you will\n- Learn HTML\n- Styling a Website\n- GettingStarted with
         android:text="Go to Codecademy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.67" />
+        app:layout_constraintVertical_bias="0.806" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

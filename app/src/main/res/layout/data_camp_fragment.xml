@@ -37,24 +37,22 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.221" />
 
-        <TextView
-            android:id="@+id/resource3Description"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:maxLines="10"
+    <TextView
+        android:id="@+id/resource3Description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:maxLines="30"
 
-            android:text="Codecademy's Web Development Track includes JavaScript, Node.JS, SQL, Express.JS, React, TDD, and more.
-In this track you will\n- Learn HTML\n- Styling a Website\n- GettingStarted with JavaScript\n- Learn Command Line\n- Front-end and Back-end
-\n- SQL and Databases for Web Development\n- Building a Persistent API"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.348" />
+        android:text="You can do so much at Data Camp!\n'Learn the data skills you need online at your own pace—from non-coding essentials to data science and machine learning.'\n\nData Camp's learning paths range from technology based to career based. \n\nYou can learn skills:\n- Python \n- Oracle \n- SQL \n- Power BI \n- Shell \n\n You can choose a specific skill to matster in:\n - SQL Fundementals \n- Data Literacy \n- Machine Learning \n- Statistics \n- NLP \n- Data Visualization\n\n Data Camp has so much to offer!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
 
     <Button
         android:id="@+id/dataCampBtnUrl"
@@ -65,8 +63,9 @@ In this track you will\n- Learn HTML\n- Styling a Website\n- GettingStarted with
         android:text="Go to Data Camp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.67" />
+        app:layout_constraintVertical_bias="0.868" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -37,24 +37,23 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.221" />
 
-        <TextView
-            android:id="@+id/resource3Description"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:maxLines="10"
+    <TextView
+        android:id="@+id/resource3Description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:maxLines="20"
 
-            android:text="Codecademy's Web Development Track includes JavaScript, Node.JS, SQL, Express.JS, React, TDD, and more.
-In this track you will\n- Learn HTML\n- Styling a Website\n- GettingStarted with JavaScript\n- Learn Command Line\n- Front-end and Back-end
-\n- SQL and Databases for Web Development\n- Building a Persistent API"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.348" />
+        android:text="Android App Development Specialization offered by Vanderbilt University available for free on Coursera.\n 'This Specialization enables learners to successfully apply core Java programming languages features and software patterns needed to develop maintainable mobile apps comprised of core Android components, as well as fundamental Java I/O and persistence mechanisms.'
+\n\n The course content includes:\n- Java for Android\n- Intents, Activities, and Broadcast Receivers\n- Engineering Maintainable Android Apps\n- Capston MOOC for 'Android App Developement'"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378" />
 
     <Button
         android:id="@+id/androidCourseraBtn"

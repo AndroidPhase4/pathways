@@ -7,22 +7,11 @@
         <deviceKey>
           <Key>
             <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\Kamal\.android\avd\Pixel_5_API_30jjjk.avd" />
+            <value value="C:\Users\Kamal\.android\avd\pathways.avd" />
           </Key>
         </deviceKey>
       </Target>
     </runningDeviceTargetSelectedWithDropDown>
-    <targetSelectedWithDropDown>
-      <Target>
-        <type value="QUICK_BOOT_TARGET" />
-        <deviceKey>
-          <Key>
-            <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\Kamal\.android\avd\Pixel_5_API_30jjjk.avd" />
-          </Key>
-        </deviceKey>
-      </Target>
-    </targetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2022-03-25T04:48:28.498004900Z" />
+    <timeTargetWasSelectedWithDropDown value="2022-03-25T07:52:44.757843200Z" />
   </component>
 </project>

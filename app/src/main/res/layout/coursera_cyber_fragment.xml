@@ -46,9 +46,7 @@
             android:layout_marginEnd="10dp"
             android:maxLines="10"
 
-            android:text="Codecademy's Web Development Track includes JavaScript, Node.JS, SQL, Express.JS, React, TDD, and more.
-In this track you will\n- Learn HTML\n- Styling a Website\n- GettingStarted with JavaScript\n- Learn Command Line\n- Front-end and Back-end
-\n- SQL and Databases for Web Development\n- Building a Persistent API"
+            android:text="Coursera's Cybersecurity courses include:\n- IBM Cybersecurity Analyst by IBM\n- Introduction to Cyber Security by NYU\n- Google IT Support by Google\n- Python for Cybersecurity by Infosec\n- Cybersecurity MasterTask Certificate by Arizona State University\n- Applied Calculus with Python by John Hopkins University"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
