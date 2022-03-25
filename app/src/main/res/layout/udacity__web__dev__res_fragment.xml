@@ -54,7 +54,7 @@ necessary skills to get a career in tech. Some of their courses and programs inc
         app:layout_constraintVertical_bias="0.357" />
 
     <Button
-        android:id="@+id/btnLaunchBrowser"
+        android:id="@+id/udacityWebDevBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go to Udacity"

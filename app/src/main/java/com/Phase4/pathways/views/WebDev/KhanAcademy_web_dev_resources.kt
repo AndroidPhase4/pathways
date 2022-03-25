@@ -26,7 +26,6 @@ class KhanAcademy_web_dev_resources : Fragment() {
     private var _binding: KhanAcademyWebDevResourcesFragmentBinding? = null
     private val binding get() = _binding!!
 
-    //Udacity
     private val webUrl: Button get() = binding.khanAcademyButton
     private var urlRepository = UrlRepository()
     private var url = urlRepository.khanAcademy
