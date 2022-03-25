@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.Phase4.pathways.R
 import com.Phase4.pathways.models.Bootcamp
 import com.Phase4.pathways.ui.fragments.BootcampFragment
-import com.google.android.material.snackbar.Snackbar
 
 class BootcampAdapter(
     private val context: BootcampFragment,
@@ -35,8 +34,6 @@ class BootcampAdapter(
         holder.description.text = context.resources.getString(bootcamp.descriptionResourceId)
 
         holder.itemView.setOnClickListener {
-            Snackbar.make(holder.itemView, "Clicked a bootcamp",  Snackbar.LENGTH_SHORT).show()
-
             val intent = Intent(Intent.ACTION_VIEW)
             intent.data = Uri.parse(context.resources.getString(bootcamp.urlResourceId))
             context.startActivity(intent)

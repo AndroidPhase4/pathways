@@ -56,4 +56,28 @@
     <string name="bootcamp10Desc">"Web development is a high-growth career track, and Columbia Engineering Coding Boot Camp teaches you the specialized skills for full stack web development."</string>
     <string name="bootcamp10Url">https://bootcamp.cvn.columbia.edu</string>
 
+    <string name="job1">Android Developer</string>
+    <string name="job1Desc">"In this role, you will utilize the ServiceNow platform to provide support to consulting and technical teams by contributing to various stages of the software development life cycle"</string>
+    <string name="job1Url">https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/preview/210244394/?keyword=android</string>
+
+    <string name="job2">Principal Network Engineer</string>
+    <string name="job2Desc">"Bloomberg’s Network Engineering team architects, designs, builds, and automates the global network which supports Bloomberg’s products and services"</string>
+    <string name="job2Url">https://careers.bloomberg.com/job/detail/91353?sd=Software+Developer%2FEngineering&amp;fd=Engineering</string>
+
+    <string name="job3">Software Engineer II Core</string>
+    <string name="job3Desc">"Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another"</string>
+    <string name="job3Url">https://careers.google.com/jobs/results/103789633956913862-software-engineer-ii-core/?company=Google&amp;company=Google%20Fiber&amp;company=YouTube&amp;employment_type=FULL_TIME&amp;gclid=Cj0KCQjw0PWRBhDKARIsAPKHFGht1H1V_BrYGQd0u26aA8XFy7_iF-glmaM1my5XBep38uoEtkewfxMaAgBTEALw_wcB&amp;gclsrc=aw.ds&amp;hl=en_US&amp;jlo=en_US&amp;location=United%20States&amp;q=Software%20Engineer&amp;sort_by=relevance&amp;src=Online%2FHouse%20Ads%2FBKWS_SWE</string>
+
+<!--    <string name="job4">Android Developer</string>-->
+<!--    <string name="job4Desc">"In this role, you will utilize the ServiceNow platform to provide support to consulting and technical teams by contributing to various stages of the software development life cycle"</string>-->
+<!--    <string name="job4Url">https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/preview/210244394/?keyword=android</string>-->
+
+<!--    <string name="job5">Android Developer</string>-->
+<!--    <string name="job5Desc">"In this role, you will utilize the ServiceNow platform to provide support to consulting and technical teams by contributing to various stages of the software development life cycle"</string>-->
+<!--    <string name="job5Url">https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/preview/210244394/?keyword=android</string>-->
+
+<!--    <string name="job6">Android Developer</string>-->
+<!--    <string name="job6Desc">"In this role, you will utilize the ServiceNow platform to provide support to consulting and technical teams by contributing to various stages of the software development life cycle"</string>-->
+<!--    <string name="job6Url">https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/preview/210244394/?keyword=android</string>-->
+
 </resources>

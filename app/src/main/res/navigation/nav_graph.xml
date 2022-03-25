@@ -71,6 +71,13 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_fragment_web_developer_details_to_jobsFragment"
+            app:destination="@id/jobsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/fragment_android_developer_details"
@@ -80,6 +87,13 @@
         <action
             android:id="@+id/action_fragment_android_developer_details_to_fragment_bootcamp"
             app:destination="@id/fragment_bootcamp"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_fragment_android_developer_details_to_jobsFragment"
+            app:destination="@id/jobsFragment"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
@@ -97,6 +111,13 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_fragment_data_scientist_details_to_jobsFragment"
+            app:destination="@id/jobsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/fragment_cyber_security_details"
@@ -106,6 +127,13 @@
         <action
             android:id="@+id/action_fragment_cyber_security_details_to_fragment_bootcamp"
             app:destination="@id/fragment_bootcamp"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_fragment_cyber_security_details_to_jobsFragment"
+            app:destination="@id/jobsFragment"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
@@ -162,4 +190,8 @@
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
+    <fragment
+        android:id="@+id/jobsFragment"
+        android:name="com.Phase4.pathways.ui.fragments.JobsFragment"
+        android:label="JobsFragment" />
 </navigation>

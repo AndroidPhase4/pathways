@@ -8,33 +8,30 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.Phase4.pathways.R
-import com.Phase4.pathways.model.BootcampAdapter
-import com.Phase4.pathways.data.Datasource
+import com.Phase4.pathways.adapters.JobAdapter
+import com.Phase4.pathways.data.JobsDatasource
 
-class BootcampFragment : Fragment() {
+class JobsFragment : Fragment() {
 
-   lateinit var adapter: BootcampAdapter
+     lateinit var adapter: JobAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_bootcamp, container, false)
+        val view = inflater.inflate(R.layout.fragment_jobs, container, false)
 
         initRecyclerView(view)
         return view
     }
 
-
-
     private fun initRecyclerView(view: View) {
-        val data = Datasource().loadBootcamps()
+        val data = JobsDatasource().loadJobs()
 
-        val recyclerView = view.findViewById<RecyclerView>(R.id.rvBootcamps)
+        val recyclerView = view.findViewById<RecyclerView>(R.id.rvJobs)
         recyclerView.layoutManager = LinearLayoutManager(activity)
-        adapter = BootcampAdapter(this,data)
+        adapter = JobAdapter(this, data)
         recyclerView.adapter = adapter
     }
-
 }
