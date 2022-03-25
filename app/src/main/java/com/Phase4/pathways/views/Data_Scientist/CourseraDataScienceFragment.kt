@@ -1,4 +1,4 @@
-package com.Phase4.pathways.views.Android
+package com.Phase4.pathways.views.Data_Scientist
 
 import android.content.Intent
 import android.net.Uri
@@ -10,19 +10,20 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import com.Phase4.pathways.R
-import com.Phase4.pathways.databinding.AndroidCourseraFragmentBinding
-import com.Phase4.pathways.databinding.AndroidUdacityFragmentBinding
+import com.Phase4.pathways.databinding.CourseraDataScienceFragmentBinding
+import com.Phase4.pathways.databinding.HarvardDataFragmentBinding
 import com.Phase4.pathways.model.UrlRepository
-import com.Phase4.pathways.viewmodel.Android.AndroidUdacityViewModel
+import com.Phase4.pathways.viewmodel.DataScience.CourseraDataScienceViewModel
 
-class AndroidUdacityFragment : Fragment() {
+class CourseraDataScienceFragment : Fragment() {
 
-    private var _binding: AndroidUdacityFragmentBinding? = null
+
+    private var _binding: CourseraDataScienceFragmentBinding? = null
     private val binding get() = _binding!!
 
-    private val webUrl: Button get() = binding.androidUdacityBtn
+    private val webUrl: Button get() = binding.courseraDataUrlBtn
     private var urlRepository = UrlRepository()
-    private var url = urlRepository.androidUdacity
+    private var url = urlRepository.courseraDataScience
 
 
     override fun onCreateView(
@@ -30,7 +31,7 @@ class AndroidUdacityFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = AndroidUdacityFragmentBinding.inflate(layoutInflater, container, false)
+        _binding = CourseraDataScienceFragmentBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
 

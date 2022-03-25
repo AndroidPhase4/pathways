@@ -2,18 +2,14 @@ package com.Phase4.pathways.views.WebDev
 
 import android.content.Intent
 import android.net.Uri
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import com.Phase4.pathways.R
 import com.Phase4.pathways.databinding.CodeCademyWebDevResFragmentBinding
-import com.Phase4.pathways.databinding.UdacityWebDevResFragmentBinding
 import com.Phase4.pathways.model.UrlRepository
-import com.Phase4.pathways.viewmodel.CodeCademyWebDevResViewModel
 
 class codeCademy_web_dev_res : Fragment() {
 

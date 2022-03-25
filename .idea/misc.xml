@@ -3,24 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout-land/fragment_data_resources_fragment.xml" value="0.13125" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/activity_main.xml" value="0.3020833333333333" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/activity_web_dev.xml" value="0.1" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/activity_web_dev_resouces.xml" value="0.21875" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/android_coursera_fragment.xml" value="0.26268115942028986" />
-        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/android_developer_google_fragment.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/android_developer_google_fragment.xml" value="0.1" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/android_udacity_fragment.xml" value="0.26268115942028986" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/bootcamp_list.xml" value="0.3020833333333333" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/code_cademy_web_dev_res_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/codecademy_cyber_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/coursera_cyber_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/coursera_data_science_fragment.xml" value="0.18819655521783182" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/data_camp_fragment.xml" value="0.18819655521783182" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/edx_cyber_fragment.xml" value="0.18642350557244175" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_android_developer_details.xml" value="0.1" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_android_resources_fragment.xml" value="0.1" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_bootcamp.xml" value="0.21875" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_cyber_resources_fragment.xml" value="0.1" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_cyber_security_details.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_data_resources_fragment.xml" value="0.1" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_data_scientist_details.xml" value="0.3020833333333333" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_loggedin.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_loginregister.xml" value="0.3020833333333333" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_web_dev_resouce.xml" value="0.3020833333333333" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_web_dev_resources_fragment.xml" value="0.25" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_web_developer_details.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/harvard_data_fragment.xml" value="0.18819655521783182" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/item_bootcamp.xml" value="0.3020833333333333" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/khan_academy_web_dev_resources_fragment.xml" value="0.3451086956521739" />
         <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/recyclerview_bootcamps.xml" value="0.3020833333333333" />

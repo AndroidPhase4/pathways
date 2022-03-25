@@ -14,7 +14,7 @@ class UrlRepository {
 
 
     //Data Scientist
-    val dataCamp = "https://www.datacamp.com/"
+    val dataCamp = "https://www.datacamp.com"
     val courseraDataScience = "https://www.coursera.org/browse/data-science"
     val harvard = "https://extension.harvard.edu/academics/professional-graduate-certificates/data-science-certificate"
 

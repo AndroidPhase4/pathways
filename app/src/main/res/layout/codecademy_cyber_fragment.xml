@@ -3,7 +3,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-    tools:context=".views.Android.AndroidCourseraFragment">
+    tools:context=".views.Cyber.CodecademyCyberFragment">
 
 
         <TextView
@@ -11,7 +11,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="Android Developer Resource III"
+            android:text="Cyber Security Resource III"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
             android:id="@+id/resrouce3Name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Coursera"
+            android:text="Codecademy"
             android:textColor="@color/teal_700"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -56,11 +56,11 @@ In this track you will\n- Learn HTML\n- Styling a Website\n- GettingStarted with
             app:layout_constraintVertical_bias="0.348" />
 
         <Button
-            android:id="@+id/androidCourseraBtn"
+            android:id="@+id/codecademyCyberBtnWebUrl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="Go to Coursera"
+            android:text="Go to Codecademy"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

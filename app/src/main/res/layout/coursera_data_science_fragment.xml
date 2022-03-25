@@ -3,7 +3,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-    tools:context=".views.Android.AndroidCourseraFragment">
+    tools:context=".views.Data_Scientist.CourseraDataScienceFragment">
 
 
         <TextView
@@ -11,7 +11,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="Android Developer Resource III"
+            android:text="Data Science Resource II"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -56,7 +56,7 @@ In this track you will\n- Learn HTML\n- Styling a Website\n- GettingStarted with
             app:layout_constraintVertical_bias="0.348" />
 
         <Button
-            android:id="@+id/androidCourseraBtn"
+            android:id="@+id/courseraDataUrlBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
