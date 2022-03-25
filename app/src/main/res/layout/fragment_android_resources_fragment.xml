@@ -19,37 +19,44 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="100dp"/>
 
-        <Button
-            android:id="@+id/androidDevBtn"
-            android:layout_width="289dp"
-            android:layout_height="62dp"
-            android:text="Android.Developer (Google)"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.342" />
+    <Button
+        android:id="@+id/androidDevBtn"
+        android:layout_width="289dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#1FC884"
+        android:text="Android.Developer (Google)"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342" />
 
-        <Button
-            android:id="@+id/androidUdacityBtn"
-            android:layout_width="289dp"
-            android:layout_height="62dp"
-            android:text="Udacity"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.499" />
-        <Button
-            android:id="@+id/androidCourseraBtn"
-            android:layout_width="289dp"
-            android:layout_height="62dp"
-            android:text="Coursera"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.651" />
+    <Button
+        android:id="@+id/androidUdacityBtn"
+        android:layout_width="289dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#1FC884"
+        android:text="Udacity"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/androidCourseraBtn"
+        android:layout_width="289dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#1FC884"
+        android:text="Coursera"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.651" />
 
 
 

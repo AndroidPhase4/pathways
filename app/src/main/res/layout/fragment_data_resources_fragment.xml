@@ -19,37 +19,44 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="100dp"/>
 
-        <Button
-            android:id="@+id/dataCampBtn"
-            android:layout_width="289dp"
-            android:layout_height="62dp"
-            android:text="Data Camp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.342" />
+    <Button
+        android:id="@+id/dataCampBtn"
+        android:layout_width="289dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#4981F3"
+        android:text="Data Camp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342" />
 
-        <Button
-            android:id="@+id/courseraDataBtn"
-            android:layout_width="289dp"
-            android:layout_height="62dp"
-            android:text="Coursera"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.499" />
-        <Button
-            android:id="@+id/harvardBtn"
-            android:layout_width="289dp"
-            android:layout_height="62dp"
-            android:text="Harvard"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.651" />
+    <Button
+        android:id="@+id/courseraDataBtn"
+        android:layout_width="289dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#4981F3"
+        android:text="Coursera"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/harvardBtn"
+        android:layout_width="289dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#4981F3"
+        android:text="Harvard"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.651" />
 
 
 

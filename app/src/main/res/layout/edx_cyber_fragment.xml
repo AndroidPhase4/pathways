@@ -6,19 +6,20 @@
     tools:context=".views.Cyber.EdxCyberFragment">
 
 
-        <TextView
-            android:id="@+id/resourceTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-medium"
-            android:text="Cyber Security Resource I"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.109" />
+     <TextView
+         android:id="@+id/resourceTitle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:fontFamily="sans-serif-medium"
+         android:text="Cyber Security Resource I"
+         android:textColor="#F16060"
+         android:textSize="20sp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.497"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.109" />
 
 
         <TextView
@@ -55,16 +56,17 @@ In this track you will\n- Learn HTML\n- Styling a Website\n- GettingStarted with
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.348" />
 
-        <Button
-            android:id="@+id/edXCyberBtnWebUrl"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-medium"
-            android:text="Go to EdX"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.67" />
+     <Button
+         android:id="@+id/edXCyberBtnWebUrl"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:backgroundTint="#F16060"
+         android:fontFamily="sans-serif-medium"
+         android:text="Go to EdX"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.67" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

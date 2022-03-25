@@ -18,37 +18,41 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="100dp"/>
 
-        <Button
-            android:id="@+id/edXCyberBtn"
-            android:layout_width="289dp"
-            android:layout_height="62dp"
-            android:text="EdX"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.342" />
+    <Button
+        android:id="@+id/edXCyberBtn"
+        android:layout_width="289dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#F16060"
+        android:text="EdX"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342" />
 
-        <Button
-            android:id="@+id/courseraCyberBtn"
-            android:layout_width="289dp"
-            android:layout_height="62dp"
-            android:text="Coursera"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.499" />
-        <Button
-            android:id="@+id/codecademyCyberBtn"
-            android:layout_width="289dp"
-            android:layout_height="62dp"
-            android:text="Codecademy"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.651" />
+    <Button
+        android:id="@+id/courseraCyberBtn"
+        android:layout_width="289dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#F16060"
+        android:text="Coursera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/codecademyCyberBtn"
+        android:layout_width="289dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#F16060"
+        android:text="Codecademy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.651" />
 
 
 
