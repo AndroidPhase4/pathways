@@ -68,9 +68,9 @@
     <string name="job3Desc">"Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another"</string>
     <string name="job3Url">https://careers.google.com/jobs/results/103789633956913862-software-engineer-ii-core/?company=Google&amp;company=Google%20Fiber&amp;company=YouTube&amp;employment_type=FULL_TIME&amp;gclid=Cj0KCQjw0PWRBhDKARIsAPKHFGht1H1V_BrYGQd0u26aA8XFy7_iF-glmaM1my5XBep38uoEtkewfxMaAgBTEALw_wcB&amp;gclsrc=aw.ds&amp;hl=en_US&amp;jlo=en_US&amp;location=United%20States&amp;q=Software%20Engineer&amp;sort_by=relevance&amp;src=Online%2FHouse%20Ads%2FBKWS_SWE</string>
 
-<!--    <string name="job4">Android Developer</string>-->
-<!--    <string name="job4Desc">"In this role, you will utilize the ServiceNow platform to provide support to consulting and technical teams by contributing to various stages of the software development life cycle"</string>-->
-<!--    <string name="job4Url">https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/preview/210244394/?keyword=android</string>-->
+    <string name="job4">Designer, Creative Content</string>
+    <string name="job4Desc">"We’re in a transformational time at Meta as we’ve defined a bold company vision, and continue to reimagine what work at Meta looks like in a hybrid world. It requires a reimagining of many People (HR) programs and initiatives that play a large part of a person’s everyday experience at Meta"</string>
+    <string name="job4Url">https://www.metacareers.com/jobs/504030894578978/?rx_campaign=indeed0&amp;rx_group=115136&amp;rx_job=a1K2K000008TcTCUA0_5c157a62&amp;rx_r=none&amp;rx_source=Indeed&amp;rx_ts=20220325T160012Z&amp;utm_campaign=Job%2Bboard&amp;utm_medium=jobs&amp;utm_source=indeed&amp;rx_p=IAJRYSAOC9&amp;rx_viewer=040be1e8ac6311ecb516d923998fa38de680a090331e47b2ac9731149c43ec9d</string>
 
 <!--    <string name="job5">Android Developer</string>-->
 <!--    <string name="job5Desc">"In this role, you will utilize the ServiceNow platform to provide support to consulting and technical teams by contributing to various stages of the software development life cycle"</string>-->
