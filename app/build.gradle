@@ -4,11 +4,7 @@ plugins {
     id 'com.google.gms.google-services'
     id 'kotlin-kapt'
     id 'androidx.navigation.safeargs'
-<<<<<<< HEAD
-=======
     id 'kotlin-android-extensions'
-
->>>>>>> main
 }
 android {
     compileSdk 31
@@ -103,14 +99,8 @@ dependencies {
     //Kodein Dependency Injection
     implementation 'org.kodein.di:kodein-di-generic-jvm:6.2.1'
     implementation 'org.kodein.di:kodein-di-framework-android-x:6.2.1'
+//    implementation "androidx.fragment:fragment:1.5.0-alpha01"
 
-<<<<<<< HEAD
-    //MVVM
-    def lifecycle_version = "2.2.0"
-    def fragments_version = "1.2.5"
-//    implementation "androidx.lifecycle:lifecycle-:2.5.0-alpha02"
-    implementation "androidx.fragment:fragment:1.5.0-alpha01"
-=======
     // Glide
     implementation 'com.github.bumptech.glide:glide:4.12.0'
     kapt 'com.github.bumptech.glide:compiler:4.12.0'
@@ -121,7 +111,4 @@ dependencies {
 
     // Kotlin Extensions and Coroutines support for Room
     implementation "androidx.room:room-ktx:2.2.5"
->>>>>>> main
-
-
 }

@@ -9,12 +9,6 @@ import android.widget.Button
 import androidx.navigation.Navigation
 import com.Phase4.pathways.R
 
-//This is the Web Developer Resources Page
-//Listed the resources for:
-//Udacity
-//Khan Academy
-//Codecademy
-
 class FragmentWebDevResources : Fragment() {
     //Udacity
     private var udacityBtn: Button? = null

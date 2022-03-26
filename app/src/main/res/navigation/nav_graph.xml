@@ -66,24 +66,27 @@
         tools:layout="@layout/fragment_web_developer_details">
         <action
             android:id="@+id/action_fragment_web_developer_details_to_fragment_bootcamp"
-<<<<<<< HEAD
-            app:destination="@id/fragment_bootcamp" />
-
-        <action
-            android:id="@+id/action_fragment_web_developer_details_to_fragmentWebDevResources"
-            app:destination="@id/fragmentWebDevResources" />
-
-=======
             app:destination="@id/fragment_bootcamp"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
         <action
+            android:id="@+id/action_fragment_web_developer_details_to_fragmentWebDevResources"
+            app:destination="@id/fragmentWebDevResources"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
             android:id="@+id/action_fragment_web_developer_details_to_jobWebDevFragment"
-            app:destination="@id/jobWebDevFragment" />
->>>>>>> main
+            app:destination="@id/jobWebDevFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
+
     <fragment
         android:id="@+id/fragment_android_developer_details"
         android:name="com.Phase4.pathways.ui.fragments.AndroidDeveloperDetailsFragment"
@@ -91,21 +94,25 @@
         tools:layout="@layout/fragment_android_developer_details">
         <action
             android:id="@+id/action_fragment_android_developer_details_to_fragment_bootcamp"
-<<<<<<< HEAD
-            app:destination="@id/fragment_bootcamp" />
-        <action
-            android:id="@+id/action_fragment_android_developer_details_to_fragmentAndroidResources"
-            app:destination="@id/fragmentAndroidResources" />
-=======
             app:destination="@id/fragment_bootcamp"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
         <action
+            android:id="@+id/action_fragment_android_developer_details_to_fragmentAndroidResources"
+            app:destination="@id/fragmentAndroidResources"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
             android:id="@+id/action_fragment_android_developer_details_to_jobAndroidDevFragment"
-            app:destination="@id/jobAndroidDevFragment" />
->>>>>>> main
+            app:destination="@id/jobAndroidDevFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/fragment_data_scientist_details"
@@ -114,13 +121,10 @@
         tools:layout="@layout/fragment_data_scientist_details">
         <action
             android:id="@+id/action_fragment_data_scientist_details_to_fragment_bootcamp"
-<<<<<<< HEAD
             app:destination="@id/fragment_bootcamp" />
         <action
             android:id="@+id/action_fragment_data_scientist_details_to_fragmentDataResources"
-            app:destination="@id/fragmentDataResources" />
-=======
-            app:destination="@id/fragment_bootcamp"
+            app:destination="@id/fragmentDataResources"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
@@ -128,8 +132,8 @@
         <action
             android:id="@+id/action_fragment_data_scientist_details_to_jobDataScienceFragment"
             app:destination="@id/jobDataScienceFragment" />
->>>>>>> main
     </fragment>
+
     <fragment
         android:id="@+id/fragment_cyber_security_details"
         android:name="com.Phase4.pathways.ui.fragments.CyberSecurityDetailsFragment"
@@ -137,28 +141,31 @@
         tools:layout="@layout/fragment_cyber_security_details">
         <action
             android:id="@+id/action_fragment_cyber_security_details_to_fragment_bootcamp"
-<<<<<<< HEAD
-            app:destination="@id/fragment_bootcamp" />
-        <action
-            android:id="@+id/action_fragment_cyber_security_details_to_fragmentCyberResources"
-            app:destination="@id/fragmentCyberResources" />
-=======
             app:destination="@id/fragment_bootcamp"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
         <action
+            android:id="@+id/action_fragment_cyber_security_details_to_fragmentCyberResources"
+            app:destination="@id/fragmentCyberResources"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
             android:id="@+id/action_fragment_cyber_security_details_to_jobCyberSecurityFragment"
-            app:destination="@id/jobCyberSecurityFragment" />
->>>>>>> main
+            app:destination="@id/jobCyberSecurityFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/fragment_bootcamp"
         android:name="com.Phase4.pathways.ui.fragments.BootcampFragment"
         android:label="fragment_bootcamp"
         android:layout_width="match_parent"
-<<<<<<< HEAD
         android:layout_height="match_parent" />
     <fragment
         android:id="@+id/fragmentWebDevResources"
@@ -279,10 +286,8 @@
         android:id="@+id/edxCyberFragment"
         android:name="com.Phase4.pathways.views.Cyber.EdxCyberFragment"
         android:label="edx_cyber_fragment"
-        tools:layout="@layout/edx_cyber_fragment" />
-=======
-        android:layout_height="match_parent" >
-    </fragment>
+        tools:layout="@layout/edx_cyber_fragment"
+        android:layout_height="match_parent" />
     <fragment
         android:id="@+id/breakingNewsFragment"
         android:name="com.Phase4.pathways.ui.fragments.BreakingNewsFragment"
@@ -347,5 +352,4 @@
         android:name="com.Phase4.pathways.ui.fragments.JobCyberSecurityFragment"
         android:label="job_cyber_security_fragment"
         tools:layout="@layout/job_cyber_security_fragment" />
->>>>>>> main
 </navigation>

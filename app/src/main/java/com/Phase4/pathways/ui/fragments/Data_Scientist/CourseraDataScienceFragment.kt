@@ -2,18 +2,14 @@ package com.Phase4.pathways.views.Data_Scientist
 
 import android.content.Intent
 import android.net.Uri
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import com.Phase4.pathways.R
 import com.Phase4.pathways.databinding.CourseraDataScienceFragmentBinding
-import com.Phase4.pathways.databinding.HarvardDataFragmentBinding
 import com.Phase4.pathways.model.UrlRepository
-import com.Phase4.pathways.viewmodel.DataScience.CourseraDataScienceViewModel
 
 class CourseraDataScienceFragment : Fragment() {
 

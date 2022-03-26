@@ -2,18 +2,14 @@ package com.Phase4.pathways.ui.fragments
 
 import android.content.Intent
 import android.net.Uri
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import com.Phase4.pathways.R
 import com.Phase4.pathways.data.JobUrls
 import com.Phase4.pathways.databinding.JobCyberSecurityFragmentBinding
-import com.Phase4.pathways.databinding.JobDataScienceFragmentBinding
-import com.Phase4.pathways.viewmodel.JobCyberSecurityViewModel
 
 class JobCyberSecurityFragment : Fragment() {
 

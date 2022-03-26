@@ -1,6 +1,5 @@
 package com.Phase4.pathways.ui
 
-import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.Phase4.pathways.repository.NewsRepository

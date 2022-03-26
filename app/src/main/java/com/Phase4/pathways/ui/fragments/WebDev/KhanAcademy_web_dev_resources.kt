@@ -11,7 +11,6 @@ import android.widget.Button
 import com.Phase4.pathways.databinding.KhanAcademyWebDevResourcesFragmentBinding
 import com.Phase4.pathways.model.UrlRepository
 
-//Button Name: khanAcademy
 
 class KhanAcademy_web_dev_resources : Fragment() {
 

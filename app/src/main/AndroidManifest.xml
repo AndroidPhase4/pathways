@@ -14,9 +14,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pathways" >
         <activity
-            android:name=".views.WebDevActivity"
-            android:exported="false" />
-        <activity
             android:name=".ui.NewsActivity"
             android:exported="true">
             <intent-filter>
