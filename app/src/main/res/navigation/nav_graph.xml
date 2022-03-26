@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginRegisterFragment"
-        android:name="com.Phase4.pathways.views.LoginRegisterFragment"
+        android:name="com.Phase4.pathways.ui.fragments.LoginRegisterFragment"
         android:label="LoginRegisterFragment">
         <action
             android:id="@+id/action_loginRegisterFragment_to_loggedInFragment"
@@ -16,7 +16,7 @@
 
     <fragment
         android:id="@+id/loggedInFragment"
-        android:name="com.Phase4.pathways.views.LoggedInFragment"
+        android:name="com.Phase4.pathways.ui.fragments.LoggedInFragment"
         android:label="LoggedInFragment">
         <action
             android:id="@+id/action_loggedInFragment_to_loginRegisterFragment"
@@ -25,72 +25,140 @@
             app:popUpToInclusive="true" />
         <action
             android:id="@+id/action_loggedInFragment_to_fragment_web_developer_details"
-            app:destination="@id/fragment_web_developer_details" />
+            app:destination="@id/fragment_web_developer_details"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
         <action
             android:id="@+id/action_loggedInFragment_to_fragment_android_developer_details"
-            app:destination="@id/fragment_android_developer_details" />
+            app:destination="@id/fragment_android_developer_details"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
         <action
             android:id="@+id/action_loggedInFragment_to_fragment_cyber_security_details"
-            app:destination="@id/fragment_cyber_security_details" />
+            app:destination="@id/fragment_cyber_security_details"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
         <action
             android:id="@+id/action_loggedInFragment_to_fragment_data_scientist_details"
-            app:destination="@id/fragment_data_scientist_details" />
+            app:destination="@id/fragment_data_scientist_details"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_loggedInFragment_to_breakingNewsFragment"
+            app:destination="@id/breakingNewsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment
         android:id="@+id/fragment_web_developer_details"
-        android:name="com.Phase4.pathways.views.fragment_web_developer_details"
+        android:name="com.Phase4.pathways.ui.fragments.WebDeveloperDetailsFragment"
         android:label="fragment_pathways_details_fragment"
         tools:layout="@layout/fragment_web_developer_details">
         <action
             android:id="@+id/action_fragment_web_developer_details_to_fragment_bootcamp"
+<<<<<<< HEAD
             app:destination="@id/fragment_bootcamp" />
 
         <action
             android:id="@+id/action_fragment_web_developer_details_to_fragmentWebDevResources"
             app:destination="@id/fragmentWebDevResources" />
 
+=======
+            app:destination="@id/fragment_bootcamp"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_fragment_web_developer_details_to_jobWebDevFragment"
+            app:destination="@id/jobWebDevFragment" />
+>>>>>>> main
     </fragment>
     <fragment
         android:id="@+id/fragment_android_developer_details"
-        android:name="com.Phase4.pathways.views.fragment_android_developer_details"
+        android:name="com.Phase4.pathways.ui.fragments.AndroidDeveloperDetailsFragment"
         android:label="fragment_android_developer_details"
         tools:layout="@layout/fragment_android_developer_details">
         <action
             android:id="@+id/action_fragment_android_developer_details_to_fragment_bootcamp"
+<<<<<<< HEAD
             app:destination="@id/fragment_bootcamp" />
         <action
             android:id="@+id/action_fragment_android_developer_details_to_fragmentAndroidResources"
             app:destination="@id/fragmentAndroidResources" />
+=======
+            app:destination="@id/fragment_bootcamp"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_fragment_android_developer_details_to_jobAndroidDevFragment"
+            app:destination="@id/jobAndroidDevFragment" />
+>>>>>>> main
     </fragment>
     <fragment
         android:id="@+id/fragment_data_scientist_details"
-        android:name="com.Phase4.pathways.views.fragment_data_scientist_details"
+        android:name="com.Phase4.pathways.ui.fragments.DataScienceDetailsFragment"
         android:label="fragment_data_scientist_details"
         tools:layout="@layout/fragment_data_scientist_details">
         <action
             android:id="@+id/action_fragment_data_scientist_details_to_fragment_bootcamp"
+<<<<<<< HEAD
             app:destination="@id/fragment_bootcamp" />
         <action
             android:id="@+id/action_fragment_data_scientist_details_to_fragmentDataResources"
             app:destination="@id/fragmentDataResources" />
+=======
+            app:destination="@id/fragment_bootcamp"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_fragment_data_scientist_details_to_jobDataScienceFragment"
+            app:destination="@id/jobDataScienceFragment" />
+>>>>>>> main
     </fragment>
     <fragment
         android:id="@+id/fragment_cyber_security_details"
-        android:name="com.Phase4.pathways.views.fragment_cyber_security_details"
+        android:name="com.Phase4.pathways.ui.fragments.CyberSecurityDetailsFragment"
         android:label="fragment_cyber_security_details"
         tools:layout="@layout/fragment_cyber_security_details">
         <action
             android:id="@+id/action_fragment_cyber_security_details_to_fragment_bootcamp"
+<<<<<<< HEAD
             app:destination="@id/fragment_bootcamp" />
         <action
             android:id="@+id/action_fragment_cyber_security_details_to_fragmentCyberResources"
             app:destination="@id/fragmentCyberResources" />
+=======
+            app:destination="@id/fragment_bootcamp"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_fragment_cyber_security_details_to_jobCyberSecurityFragment"
+            app:destination="@id/jobCyberSecurityFragment" />
+>>>>>>> main
     </fragment>
     <fragment
         android:id="@+id/fragment_bootcamp"
-        android:name="com.Phase4.pathways.views.Fragment_bootcamp"
+        android:name="com.Phase4.pathways.ui.fragments.BootcampFragment"
         android:label="fragment_bootcamp"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="match_parent" />
     <fragment
         android:id="@+id/fragmentWebDevResources"
@@ -212,4 +280,72 @@
         android:name="com.Phase4.pathways.views.Cyber.EdxCyberFragment"
         android:label="edx_cyber_fragment"
         tools:layout="@layout/edx_cyber_fragment" />
+=======
+        android:layout_height="match_parent" >
+    </fragment>
+    <fragment
+        android:id="@+id/breakingNewsFragment"
+        android:name="com.Phase4.pathways.ui.fragments.BreakingNewsFragment"
+        android:label="BreakingNewsFragment" >
+        <action
+            android:id="@+id/action_breakingNewsFragment_to_articleFragment"
+            app:destination="@id/articleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.Phase4.pathways.ui.fragments.ArticleFragment"
+        android:label="ArticleFragment" >
+        <argument
+            android:name="article"
+            app:argType="com.Phase4.pathways.models.Article" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedNewsFragment"
+        android:name="com.Phase4.pathways.ui.fragments.SavedNewsFragment"
+        android:label="SavedNewsFragment" >
+        <action
+            android:id="@+id/action_savedNewsFragment_to_articleFragment"
+            app:destination="@id/articleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/searchNewsFragment"
+        android:name="com.Phase4.pathways.ui.fragments.SearchNewsFragment"
+        android:label="SearchNewsFragment" >
+        <action
+            android:id="@+id/action_searchNewsFragment_to_articleFragment"
+            app:destination="@id/articleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/jobWebDevFragment"
+        android:name="com.Phase4.pathways.ui.fragments.JobWebDevFragment"
+        android:label="job_web_dev_fragment"
+        tools:layout="@layout/job_web_dev_fragment" />
+    <fragment
+        android:id="@+id/jobAndroidDevFragment"
+        android:name="com.Phase4.pathways.ui.fragments.JobAndroidDevFragment"
+        android:label="job_android_dev_fragment"
+        tools:layout="@layout/job_android_dev_fragment" />
+    <fragment
+        android:id="@+id/jobDataScienceFragment"
+        android:name="com.Phase4.pathways.ui.fragments.JobDataScienceFragment"
+        android:label="job_data_science_fragment"
+        tools:layout="@layout/job_data_science_fragment" />
+    <fragment
+        android:id="@+id/jobCyberSecurityFragment"
+        android:name="com.Phase4.pathways.ui.fragments.JobCyberSecurityFragment"
+        android:label="job_cyber_security_fragment"
+        tools:layout="@layout/job_cyber_security_fragment" />
+>>>>>>> main
 </navigation>

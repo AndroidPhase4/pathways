@@ -5,7 +5,11 @@ buildscript {
         mavenCentral()
     }
     dependencies {
+<<<<<<< HEAD
         classpath 'com.android.tools.build:gradle:7.0.*'
+=======
+        classpath 'com.android.tools.build:gradle:7.1.2'
+>>>>>>> main
         classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10'
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.4.1"
         classpath 'com.google.gms:google-services:4.3.10'
@@ -13,7 +17,6 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
-
 
 task clean(type: Delete) {
     delete rootProject.buildDir
