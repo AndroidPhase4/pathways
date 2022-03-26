@@ -71,6 +71,9 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_fragment_web_developer_details_to_jobWebDevFragment"
+            app:destination="@id/jobWebDevFragment" />
     </fragment>
     <fragment
         android:id="@+id/fragment_android_developer_details"
@@ -84,6 +87,9 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_fragment_android_developer_details_to_jobAndroidDevFragment"
+            app:destination="@id/jobAndroidDevFragment" />
     </fragment>
     <fragment
         android:id="@+id/fragment_data_scientist_details"
@@ -97,6 +103,9 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_fragment_data_scientist_details_to_jobDataScienceFragment"
+            app:destination="@id/jobDataScienceFragment" />
     </fragment>
     <fragment
         android:id="@+id/fragment_cyber_security_details"
@@ -110,6 +119,9 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_fragment_cyber_security_details_to_jobCyberSecurityFragment"
+            app:destination="@id/jobCyberSecurityFragment" />
     </fragment>
     <fragment
         android:id="@+id/fragment_bootcamp"
@@ -162,4 +174,24 @@
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
+    <fragment
+        android:id="@+id/jobWebDevFragment"
+        android:name="com.Phase4.pathways.ui.fragments.JobWebDevFragment"
+        android:label="job_web_dev_fragment"
+        tools:layout="@layout/job_web_dev_fragment" />
+    <fragment
+        android:id="@+id/jobAndroidDevFragment"
+        android:name="com.Phase4.pathways.ui.fragments.JobAndroidDevFragment"
+        android:label="job_android_dev_fragment"
+        tools:layout="@layout/job_android_dev_fragment" />
+    <fragment
+        android:id="@+id/jobDataScienceFragment"
+        android:name="com.Phase4.pathways.ui.fragments.JobDataScienceFragment"
+        android:label="job_data_science_fragment"
+        tools:layout="@layout/job_data_science_fragment" />
+    <fragment
+        android:id="@+id/jobCyberSecurityFragment"
+        android:name="com.Phase4.pathways.ui.fragments.JobCyberSecurityFragment"
+        android:label="job_cyber_security_fragment"
+        tools:layout="@layout/job_cyber_security_fragment" />
 </navigation>

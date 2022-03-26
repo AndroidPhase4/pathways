@@ -65,7 +65,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ResourcesBtn" />
 
     <Button
-        android:id="@+id/DataScientistBtn"
+        android:id="@+id/JobsWebDevBtn"
         android:layout_width="222dp"
         android:layout_height="70dp"
         android:layout_marginStart="94dp"

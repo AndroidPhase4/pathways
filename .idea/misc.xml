@@ -4,6 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
 <<<<<<< HEAD
+        <entry key="..\:/Users/19178/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_loggedin.xml" value="0.134375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
         <entry key="..\:/Users/19178/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_loggedin.xml" value="0.134375" />
 =======
@@ -46,6 +53,7 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
 >>>>>>> bf47f152f7ecb7aec3f4d99653434815d2f0b621
+>>>>>>> 8b5378d4e619b2abe103886d82f23a62ca13df47
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
