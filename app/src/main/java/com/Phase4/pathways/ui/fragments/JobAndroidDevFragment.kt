@@ -1,0 +1,46 @@
+package com.Phase4.pathways.ui.fragments
+
+import android.content.Intent
+import android.net.Uri
+import androidx.lifecycle.ViewModelProvider
+import android.os.Bundle
+import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.Button
+import com.Phase4.pathways.R
+import com.Phase4.pathways.data.JobUrls
+import com.Phase4.pathways.databinding.JobAndroidDevFragmentBinding
+import com.Phase4.pathways.databinding.JobWebDevFragmentBinding
+import com.Phase4.pathways.viewmodel.JobAndroidDevViewModel
+
+class JobAndroidDevFragment : Fragment() {
+
+    private var _binding: JobAndroidDevFragmentBinding? = null
+    private val binding get() = _binding!!
+
+    private val webUrl: Button get() = binding.androidDevJobsBtn
+    private var urlRepository = JobUrls()
+    private var url = urlRepository.androidJobUrl
+
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        _binding = JobAndroidDevFragmentBinding.inflate(layoutInflater, container, false)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        webUrl.setOnClickListener { launchWebsite() }
+    }
+
+    private fun launchWebsite() {
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+        startActivity(intent)
+    }
+}

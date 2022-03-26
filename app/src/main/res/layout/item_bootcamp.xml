@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:backgroundTint="@color/lightMist"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/ivBootcampImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/app_academy" />
+
+        <TextView
+            android:id="@+id/tvBootcampTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ivBootcampImage"
+            android:layout_toEndOf="@id/ivBootcampImage"
+            android:text="The App Title"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvBootcampDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvBootcampTitle"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@id/ivBootcampImage"
+            android:text="This is the desc of the project"
+            android:maxLines="4"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

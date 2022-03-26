@@ -1,0 +1,81 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyber_security_red">
+
+    <TextView
+        android:id="@+id/PathwaysTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="177dp"
+        android:fontFamily="serif"
+        android:text="@string/app_title"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/GuideTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="142dp"
+        android:text="@string/cyber_security_title"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PathwaysTitle" />
+
+    <Button
+        android:id="@+id/ResourcesBtn"
+        android:layout_width="222dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="95dp"
+        android:backgroundTint="#F16060"
+        android:text="@string/resource"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GuideTitle" />
+
+    <Button
+        android:id="@+id/BootcampBtn"
+        android:layout_width="222dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="95dp"
+        android:backgroundTint="#F16060"
+        android:text="@string/boot_camps"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ResourcesBtn" />
+
+    <Button
+        android:id="@+id/JobsBtn"
+        android:layout_width="222dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="95dp"
+        android:backgroundTint="#F16060"
+        android:text="@string/jobs"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BootcampBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
