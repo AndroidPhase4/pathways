@@ -4,6 +4,41 @@
     <option name="filePathToZoomLevelMap">
       <map>
 <<<<<<< HEAD
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout-land/fragment_data_resources_fragment.xml" value="0.13125" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/activity_main.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/activity_web_dev.xml" value="0.1" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/activity_web_dev_resouces.xml" value="0.21875" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/android_coursera_fragment.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/android_developer_google_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/android_udacity_fragment.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/bootcamp_list.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/code_cademy_web_dev_res_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/codecademy_cyber_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/coursera_cyber_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/coursera_data_science_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/data_camp_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/edx_cyber_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_android_developer_details.xml" value="0.25" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_android_resources_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_bootcamp.xml" value="0.21875" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_cyber_resources_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_cyber_security_details.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_data_resources_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_data_scientist_details.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_loggedin.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_loginregister.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_web_dev_resouce.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_web_dev_resources_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_web_developer_details.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/harvard_data_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/item_bootcamp.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/khan_academy_web_dev_resources_fragment.xml" value="0.3451086956521739" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/recyclerview_bootcamps.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/udacity__web__dev__res_fragment.xml" value="0.3451086956521739" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/web_dev_main_activity.xml" value="0.1" />
+        <entry key="..\:/Users/Kamal/AndroidStudioProjects/pathways/app/src/main/res/layout/web_dev_main_fragment.xml" value="0.33" />
+=======
+<<<<<<< HEAD
         <entry key="..\:/Users/19178/AndroidStudioProjects/pathways/app/src/main/res/layout/fragment_loggedin.xml" value="0.134375" />
       </map>
     </option>
@@ -19,31 +54,26 @@
         <entry key="../Downloads/Kotlin_Mars_app-main/app/src/main/res/drawable/ic_connection_error.xml" value="0.17916666666666667" />
         <entry key="app/src/main/res/drawable-v24/ic_broken_image.xml" value="0.2916666666666667" />
 >>>>>>> bf47f152f7ecb7aec3f4d99653434815d2f0b621
+>>>>>>> main
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/bootcamp_list.xml" value="0.353125" />
         <entry key="app/src/main/res/layout/fragment_android_developer_details.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_bootcamp.xml" value="0.353125" />
-        <entry key="app/src/main/res/layout/fragment_cyber_security_details.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_data_scientist_details_fragment.xml" value="0.2890625" />
         <entry key="app/src/main/res/layout/fragment_loggedin.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_loginegister.xml" value="0.18645833333333334" />
         <entry key="app/src/main/res/layout/fragment_loginregister.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_pathways_details_fragment.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/fragment_recyclerview_bootcamps.xml" value="0.2755208333333333" />
         <entry key="app/src/main/res/layout/fragment_web_developer_details.xml" value="0.1675925925925926" />
-        <entry key="app/src/main/res/layout/grid_view_item.xml" value="0.2755208333333333" />
         <entry key="app/src/main/res/layout/home_pathways_fragment.xml" value="0.175" />
-        <entry key="app/src/main/res/layout/item_bootcamp.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/item_header.xml" value="0.1703125" />
         <entry key="app/src/main/res/layout/login.xml" value="0.1328125" />
-        <entry key="app/src/main/res/layout/movies_fragment.xml" value="0.1703125" />
         <entry key="app/src/main/res/layout/pathwaylist.xml" value="0.1890625" />
         <entry key="app/src/main/res/layout/pathways_home.xml" value="0.2625" />
-<<<<<<< HEAD
->>>>>>> 94d3921d5213ae5a17076451e0bc4211c070a243
       </map>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+=======
   <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
 =======
         <entry key="app/src/main/res/layout/recyclerview_bootcamps.xml" value="0.2564814814814815" />
@@ -54,6 +84,7 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
 >>>>>>> bf47f152f7ecb7aec3f4d99653434815d2f0b621
 >>>>>>> 8b5378d4e619b2abe103886d82f23a62ca13df47
+>>>>>>> main
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

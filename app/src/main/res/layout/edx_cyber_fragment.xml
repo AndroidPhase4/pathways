@@ -1,0 +1,70 @@
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context=".views.Cyber.EdxCyberFragment">
+
+
+     <TextView
+         android:id="@+id/resourceTitle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:fontFamily="sans-serif-medium"
+         android:text="Cyber Security Resource I"
+         android:textColor="#F16060"
+         android:textSize="20sp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.497"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.109" />
+
+
+        <TextView
+            android:id="@+id/resrouce3Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EdX"
+            android:textColor="@color/teal_700"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.221" />
+
+        <TextView
+            android:id="@+id/resource3Description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:maxLines="10"
+
+            android:text="edX, similar to Coursea, offers a wide range of free and paid courses from the top colleges and universities globally.\n\n Some of their Cyberscurity focused courses include:\n- Cybersecurity Fundamentals by NYU\n- Jump Start: Network Security by Checkpoint\n- Cybersecurity by RIT\n- AWS: Getting Started with Cloud Security by AWS\n- Network and Security Foundations by WGU"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.348" />
+
+     <Button
+         android:id="@+id/edXCyberBtnWebUrl"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:backgroundTint="#F16060"
+         android:fontFamily="sans-serif-medium"
+         android:text="Go to EdX"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.67" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

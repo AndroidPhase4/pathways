@@ -66,6 +66,14 @@
         tools:layout="@layout/fragment_web_developer_details">
         <action
             android:id="@+id/action_fragment_web_developer_details_to_fragment_bootcamp"
+<<<<<<< HEAD
+            app:destination="@id/fragment_bootcamp" />
+
+        <action
+            android:id="@+id/action_fragment_web_developer_details_to_fragmentWebDevResources"
+            app:destination="@id/fragmentWebDevResources" />
+
+=======
             app:destination="@id/fragment_bootcamp"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
@@ -74,6 +82,7 @@
         <action
             android:id="@+id/action_fragment_web_developer_details_to_jobWebDevFragment"
             app:destination="@id/jobWebDevFragment" />
+>>>>>>> main
     </fragment>
     <fragment
         android:id="@+id/fragment_android_developer_details"
@@ -82,6 +91,12 @@
         tools:layout="@layout/fragment_android_developer_details">
         <action
             android:id="@+id/action_fragment_android_developer_details_to_fragment_bootcamp"
+<<<<<<< HEAD
+            app:destination="@id/fragment_bootcamp" />
+        <action
+            android:id="@+id/action_fragment_android_developer_details_to_fragmentAndroidResources"
+            app:destination="@id/fragmentAndroidResources" />
+=======
             app:destination="@id/fragment_bootcamp"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
@@ -90,6 +105,7 @@
         <action
             android:id="@+id/action_fragment_android_developer_details_to_jobAndroidDevFragment"
             app:destination="@id/jobAndroidDevFragment" />
+>>>>>>> main
     </fragment>
     <fragment
         android:id="@+id/fragment_data_scientist_details"
@@ -98,6 +114,12 @@
         tools:layout="@layout/fragment_data_scientist_details">
         <action
             android:id="@+id/action_fragment_data_scientist_details_to_fragment_bootcamp"
+<<<<<<< HEAD
+            app:destination="@id/fragment_bootcamp" />
+        <action
+            android:id="@+id/action_fragment_data_scientist_details_to_fragmentDataResources"
+            app:destination="@id/fragmentDataResources" />
+=======
             app:destination="@id/fragment_bootcamp"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
@@ -106,6 +128,7 @@
         <action
             android:id="@+id/action_fragment_data_scientist_details_to_jobDataScienceFragment"
             app:destination="@id/jobDataScienceFragment" />
+>>>>>>> main
     </fragment>
     <fragment
         android:id="@+id/fragment_cyber_security_details"
@@ -114,6 +137,12 @@
         tools:layout="@layout/fragment_cyber_security_details">
         <action
             android:id="@+id/action_fragment_cyber_security_details_to_fragment_bootcamp"
+<<<<<<< HEAD
+            app:destination="@id/fragment_bootcamp" />
+        <action
+            android:id="@+id/action_fragment_cyber_security_details_to_fragmentCyberResources"
+            app:destination="@id/fragmentCyberResources" />
+=======
             app:destination="@id/fragment_bootcamp"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
@@ -122,12 +151,136 @@
         <action
             android:id="@+id/action_fragment_cyber_security_details_to_jobCyberSecurityFragment"
             app:destination="@id/jobCyberSecurityFragment" />
+>>>>>>> main
     </fragment>
     <fragment
         android:id="@+id/fragment_bootcamp"
         android:name="com.Phase4.pathways.ui.fragments.BootcampFragment"
         android:label="fragment_bootcamp"
         android:layout_width="match_parent"
+<<<<<<< HEAD
+        android:layout_height="match_parent" />
+    <fragment
+        android:id="@+id/fragmentWebDevResources"
+        android:name="com.Phase4.pathways.views.WebDev.FragmentWebDevResources"
+        android:label="fragment_web_dev_resources_fragment"
+        tools:layout="@layout/fragment_web_dev_resources_fragment" >
+        <action
+            android:id="@+id/action_fragmentWebDevResources_to_udacity_Web_Dev_Res"
+            app:destination="@id/udacity_Web_Dev_Res" />
+        <action
+            android:id="@+id/action_fragmentWebDevResources_to_khanAcademy_web_dev_resources"
+            app:destination="@id/khanAcademy_web_dev_resources" />
+        <action
+            android:id="@+id/action_fragmentWebDevResources_to_codeCademy_web_dev_res"
+            app:destination="@id/codeCademy_web_dev_res" />
+    </fragment>
+    <fragment
+        android:id="@+id/udacity_Web_Dev_Res"
+        android:name="com.Phase4.pathways.views.WebDev.Udacity_Web_Dev_Res"
+        android:label="udacity__web__dev__res_fragment"
+        tools:layout="@layout/udacity__web__dev__res_fragment" />
+    <fragment
+        android:id="@+id/khanAcademy_web_dev_resources"
+        android:name="com.Phase4.pathways.views.WebDev.KhanAcademy_web_dev_resources"
+        android:label="khan_academy_web_dev_resources_fragment"
+        tools:layout="@layout/khan_academy_web_dev_resources_fragment" />
+    <fragment
+        android:id="@+id/codeCademy_web_dev_res"
+        android:name="com.Phase4.pathways.views.WebDev.codeCademy_web_dev_res"
+        android:label="code_cademy_web_dev_res_fragment"
+        tools:layout="@layout/code_cademy_web_dev_res_fragment" />
+    <fragment
+        android:id="@+id/fragmentAndroidResources"
+        android:name="com.Phase4.pathways.views.Android.FragmentAndroidResources"
+        android:label="fragment_android_resources_fragment"
+        tools:layout="@layout/fragment_android_resources_fragment" >
+        <action
+            android:id="@+id/action_fragmentAndroidResources_to_androidDeveloperGoogleFragment"
+            app:destination="@id/androidDeveloperGoogleFragment" />
+        <action
+            android:id="@+id/action_fragmentAndroidResources_to_androidUdacityFragment"
+            app:destination="@id/androidUdacityFragment" />
+        <action
+            android:id="@+id/action_fragmentAndroidResources_to_androidCourseraFragment"
+            app:destination="@id/androidCourseraFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/androidCourseraFragment"
+        android:name="com.Phase4.pathways.views.Android.AndroidCourseraFragment"
+        android:label="android_coursera_fragment"
+        tools:layout="@layout/android_coursera_fragment" />
+    <fragment
+        android:id="@+id/androidDeveloperGoogleFragment"
+        android:name="com.Phase4.pathways.views.Android.AndroidDeveloperGoogleFragment"
+        android:label="android_developer_google_fragment"
+        tools:layout="@layout/android_developer_google_fragment" />
+    <fragment
+        android:id="@+id/androidUdacityFragment"
+        android:name="com.Phase4.pathways.views.Android.AndroidUdacityFragment"
+        android:label="android_udacity_fragment"
+        tools:layout="@layout/android_udacity_fragment" />
+    <fragment
+        android:id="@+id/fragmentDataResources"
+        android:name="com.Phase4.pathways.views.Data_Scientist.FragmentDataResources"
+        android:label="fragment_data_resources_fragment"
+        tools:layout="@layout/fragment_data_resources_fragment" >
+        <action
+            android:id="@+id/action_fragmentDataResources_to_courseraDataScienceFragment"
+            app:destination="@id/courseraDataScienceFragment" />
+        <action
+            android:id="@+id/action_fragmentDataResources_to_harvardDataFragment"
+            app:destination="@id/harvardDataFragment" />
+        <action
+            android:id="@+id/action_fragmentDataResources_to_dataCampFragment"
+            app:destination="@id/dataCampFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/courseraDataScienceFragment"
+        android:name="com.Phase4.pathways.views.Data_Scientist.CourseraDataScienceFragment"
+        android:label="coursera_data_science_fragment"
+        tools:layout="@layout/coursera_data_science_fragment" />
+    <fragment
+        android:id="@+id/dataCampFragment"
+        android:name="com.Phase4.pathways.views.Data_Scientist.DataCampFragment"
+        android:label="data_camp_fragment"
+        tools:layout="@layout/data_camp_fragment" />
+    <fragment
+        android:id="@+id/harvardDataFragment"
+        android:name="com.Phase4.pathways.views.Data_Scientist.HarvardDataFragment"
+        android:label="harvard_data_fragment"
+        tools:layout="@layout/harvard_data_fragment" />
+    <fragment
+        android:id="@+id/fragmentCyberResources"
+        android:name="com.Phase4.pathways.views.Cyber.FragmentCyberResources"
+        android:label="fragment_cyber_resources_fragment"
+        tools:layout="@layout/fragment_cyber_resources_fragment" >
+        <action
+            android:id="@+id/action_fragmentCyberResources_to_edxCyberFragment"
+            app:destination="@id/edxCyberFragment" />
+        <action
+            android:id="@+id/action_fragmentCyberResources_to_courseraCyberFragment"
+            app:destination="@id/courseraCyberFragment" />
+        <action
+            android:id="@+id/action_fragmentCyberResources_to_codecademyCyberFragment"
+            app:destination="@id/codecademyCyberFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/codecademyCyberFragment"
+        android:name="com.Phase4.pathways.views.Cyber.CodecademyCyberFragment"
+        android:label="codecademy_cyber_fragment"
+        tools:layout="@layout/codecademy_cyber_fragment" />
+    <fragment
+        android:id="@+id/courseraCyberFragment"
+        android:name="com.Phase4.pathways.views.Cyber.CourseraCyberFragment"
+        android:label="coursera_cyber_fragment"
+        tools:layout="@layout/coursera_cyber_fragment" />
+    <fragment
+        android:id="@+id/edxCyberFragment"
+        android:name="com.Phase4.pathways.views.Cyber.EdxCyberFragment"
+        android:label="edx_cyber_fragment"
+        tools:layout="@layout/edx_cyber_fragment" />
+=======
         android:layout_height="match_parent" >
     </fragment>
     <fragment
@@ -194,4 +347,5 @@
         android:name="com.Phase4.pathways.ui.fragments.JobCyberSecurityFragment"
         android:label="job_cyber_security_fragment"
         tools:layout="@layout/job_cyber_security_fragment" />
+>>>>>>> main
 </navigation>
